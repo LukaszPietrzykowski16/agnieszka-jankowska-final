@@ -11,7 +11,7 @@ function Content() {
           Ślubna<br/>
           Okolicznościowa<br/>
           Zjawiskowa<br/>
-          Profesjonalna fdsafds
+          Profesjonalna
         </span>
     </div>
     </div>
