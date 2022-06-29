@@ -1,15 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import img1 from './images/IMG_9425a.jpg';
-import img2 from './images/portfolio/IMG_6122.jpg';
-import img3 from './images/portfolio/IMG_2887.jpg';
-import img4 from './images/portfolio/7.jpg';
-import img5 from './images/portfolio/0138.jpg';
-import img6 from './images/portfolio/13.jpg';
-import img7 from './images/portfolio/IMG_6122.jpg';
-import img8 from './images/portfolio/IMG_2887.jpg';
-import img9 from './images/portfolio/IMG_7111.jpg';
-import img10 from './images/portfolio/IMG_7111.jpg';
+import img1 from './images/IMG_9425a.webp';
+import img2 from './images/portfolio/IMG_6122.webp';
+import img3 from './images/portfolio/IMG_2887.webp';
+import img4 from './images/portfolio/7.webp';
+import img5 from './images/portfolio/0138.webp';
+import img6 from './images/portfolio/13.webp';
+import img7 from './images/portfolio/IMG_6122.webp';
+import img8 from './images/portfolio/IMG_2887.webp';
+import img9 from './images/portfolio/IMG_7111.webp';
+import img10 from './images/portfolio/IMG_7111.webp';
 import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
