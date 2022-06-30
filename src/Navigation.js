@@ -66,7 +66,7 @@ function Navigation() {
         </div>
 
      
-          <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> 
+          <div className='sub-nav-mobile-x' onClick={() => hideMenu(menu)}> 
             <FontAwesomeIcon icon={ menu ?  faXmarkCircle  : faBars} />
           </div>
          

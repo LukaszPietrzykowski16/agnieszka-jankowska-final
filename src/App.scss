@@ -37,7 +37,7 @@ $white: #ffffff;
 .box {
   position: sticky;
   z-index: 5;
-  top: 100px;
+  top: 40px;
 }
 
 
@@ -769,6 +769,10 @@ footer {
   display: none;
 }
 
+.sub-nav-mobile-x {
+  display: none;
+}
+
 .content-text-mobile {
   display: none;
 }
@@ -828,10 +832,10 @@ footer {
   }
   
   .navigation-mobile {
+   
     z-index: 5;
     position: relative;
     text-align: center;
-    width: 100vw;
     transform: translateY(0);
   }
   
@@ -1019,16 +1023,27 @@ footer {
     z-index: 9999;
     display: block;
     background-color: white;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .sub-nav-mobile-x {
+    position: relative;
+    z-index: 9999;
+    display: block;
+    background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 30px;
   }
   
   .navigation-mobile {
+    display: flex;
+    flex-wrap: wrap;
     z-index: 5;
     position: relative;
-    text-align: center;
-    width: 100vw;
+
     transform: translateY(0);
   }
   
