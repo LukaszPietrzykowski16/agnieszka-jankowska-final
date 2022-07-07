@@ -54,7 +54,7 @@ useEffect(() => {
               style={{
                 zIndex: `-${index + 1}`
               }}
-            />
+            alt="Zdjęcie przedstawiające albumy ze zdjęciami"/>
           ))}
         </div>
         <div className="content-text-mobile">

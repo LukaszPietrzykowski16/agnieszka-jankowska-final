@@ -35,7 +35,7 @@ useEffect(() => {
   return (
   <div className='about-section'> 
     <div className='about-photo'>
-        <img src={img1}/>
+        <img src={img1} alt="Zdjęcie przedstawiające Agnieszkę Jankowską"/>
     </div>
     <div className='about-text'>
         <h1> Cześć! </h1>
