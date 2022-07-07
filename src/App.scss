@@ -26,12 +26,24 @@ $white: #ffffff;
   align-items: center;
 }
 
+.menu-open {
+  position: absolute;
+  transition: .6s .2s ease-in-out;
+  transform: translateY(0);
+  z-index: 90;
+  opacity: 1;
+  width: 100%;
+}
+
 .policy {
   color: rgb(129, 128, 128);
   font-size: 0.8em;
   padding-top: 40px;
 }
 
+.sub-nav-mobile {
+  display: none;
+}
 
 
 .box {
@@ -765,9 +777,6 @@ footer {
   @include threeMagicLines();
 }
 
-.sub-nav-mobile {
-  display: none;
-}
 
 .sub-nav-mobile-x {
   display: none;
@@ -778,6 +787,25 @@ footer {
 }
 
 @media (max-width: 1060px) {
+  .sub-nav-mobile-x {
+    position: relative;
+    z-index: 9999;
+    display: block;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+
+
+
+  .navigation-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 5;
+    position: relative;
+    transform: translateY(0);
+  }
   .test-gallery-subsection-txt {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -826,9 +854,9 @@ footer {
     z-index: 9999;
     display: block;
     background-color: white;
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-  
   }
   
   .navigation-mobile {
@@ -847,13 +875,7 @@ footer {
     height: 0px;
   }
   
-  .menu-open {
-    position: absolute;
-    transition: .6s .2s ease-in-out;
-    transform: translateY(0);
-    z-index: 90;
-    opacity: 1;
-  }
+
   
   
   .gallery-open {
@@ -1008,6 +1030,8 @@ footer {
   .sub-portfolio {
     width: 40vw;
   }
+
+ 
 }
 
 
@@ -1037,15 +1061,7 @@ footer {
     padding-bottom: 40px;
     padding-left: 30px;
   }
-  
-  .navigation-mobile {
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 5;
-    position: relative;
 
-    transform: translateY(0);
-  }
   
   .menu-close {
     transition: .6s .2s ease-in-out;
@@ -1055,14 +1071,6 @@ footer {
     height: 0px;
   }
   
-  .menu-open {
-    position: absolute;
-    transition: .6s .2s ease-in-out;
-    transform: translateY(0);
-    z-index: 90;
-    opacity: 1;
-  }
-
 
   .form-contant {
     @include threeMagicLines();
