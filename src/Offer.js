@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import  "./App.scss";
 import img1 from './images/portfolio/offer/img1.webp';
 import img2 from './images/portfolio/offer/img2.webp';
@@ -24,7 +24,7 @@ function Offer() {
         animationDelay: `${index * 4}s`, 
         zIndex: `-${index + 1}` 
         }}
-    />
+     alt="albumy ze zdjęciami"/>
   ))}
 const slidePresentationTime = 6000 
 const [currentSlide, setCurrentSlide] = useState(0) 

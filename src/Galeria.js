@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import img1 from './images/IMG_9425a.webp';
 import img2 from './images/portfolio/IMG_6122.webp';
@@ -52,7 +52,7 @@ export default function Galeria() {
     <Link to="/reportaz-slubny"> 
     <div className='test-gallery-subsection'>
       <div className='test-gallery-subsection-img'>
-        <img src={img2}/>
+        <img src={img2} alt="Reportaż ślubny"/>
       </div>
       <div className='test-gallery-subsection-txt'>
     
@@ -75,7 +75,7 @@ export default function Galeria() {
   </div>
   
   <div className='test-gallery-subsection-img'>
-        <img src={img3}/>
+        <img src={img3} alt="Plenerowe sesje ślubne"/>
       </div>
      
       
@@ -84,7 +84,7 @@ export default function Galeria() {
     <Link to="/chrzest-reportaz"> 
     <div className='test-gallery-subsection'>
       <div className='test-gallery-subsection-img'>
-        <img src={img4}/>
+        <img src={img4} alt="Chrzest święty - reportaż"/>
       </div>
       <div className='test-gallery-subsection-txt'>
     
@@ -104,14 +104,14 @@ export default function Galeria() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ex quis eros viverra rutrum. Nulla imperdiet ante sit amet ultrices iaculis. Praesent ullamcorper mi eu risus viverra ultricies. Curabitur volutpat ultrices mauris eget fringilla. Praesent mollis semper congue. </p>
       </div>
       <div className='test-gallery-subsection-img'>
-        <img src={img5}/>
+        <img src={img5} alt="Chrzest święty plener"/>
       </div>
     </div>
     </Link>
     <Link to="/imprezy-okolicznosciowe"> 
     <div className='test-gallery-subsection'>
       <div className='test-gallery-subsection-img'>
-        <img src={img2}/>
+        <img src={img2}  alt="Imprezy okolicznosciowe"/>
       </div>
       <div className='test-gallery-subsection-txt'>
     
@@ -132,7 +132,7 @@ export default function Galeria() {
       </div>
 
       <div className='test-gallery-subsection-img'>
-        <img src={img2}/>
+        <img src={img2} alt="Ciazowe" />
       </div>
     </div>
     </Link>

@@ -35,6 +35,21 @@ $white: #ffffff;
   width: 100%;
 }
 
+
+
+.fa-arrow-right, .fa-arrow-left {
+ height: 40px;
+ :hover {
+  color: $darkPink;
+  transition-duration: 0.4s;
+  }
+}
+
+.fa-circle-xmark {
+  height: 30px;
+}
+
+
 .policy {
   color: rgb(129, 128, 128);
   font-size: 0.8em;

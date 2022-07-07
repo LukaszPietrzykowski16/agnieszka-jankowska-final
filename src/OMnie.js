@@ -6,7 +6,7 @@ function OMnie() {
       <>
     <div className='about-section'> 
       <div className='about-photo'>
-          <img src={img1}/>
+          <img src={img1} alt="Zdjecię przedstawiające Agnieszkę Jankowską" />
       </div>
       <div className='about-text'>
           <h1> Cześć! </h1>

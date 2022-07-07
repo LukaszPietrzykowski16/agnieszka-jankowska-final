@@ -1,7 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import img1 from './images/IMG_9425a.webp';
+import { BrowserRouter as Router,  Link } from 'react-router-dom';
 import img2 from './images/portfolio/IMG_6122.webp';
 import img3 from './images/portfolio/IMG_2887.webp';
 import img4 from './images/portfolio/7.webp';
