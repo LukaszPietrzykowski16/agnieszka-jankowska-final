@@ -1,0 +1,4 @@
+[X] portfolio panel need to be changed (talk to aga about rest of sub-websites)
+[] accesibility buttons with aria label, alternative with images and make menu list 
+[X] testing on mozilla, saffari ant other browsers i need to do more research on saffari browser
+[] text size 

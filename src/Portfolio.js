@@ -18,11 +18,11 @@ function Portfolio() {
     
         <div className='portfolio'>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/reportaz-slubny" > <img src={img3}/><p>  Reportaż ślubny </p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <Link to="/plenerowe-sesje-slubne"> <img src={img2}/><p>  Plenerowe sesje ślubne </p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-swiety-reportaz"> <img src={img4}/><p>  Chrzest Święty - reportaż</p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-swiety-plener"> <img src={img10}/><p>  Chrzest Święty - plener</p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/slub-plener"> <img src={img2}/><p>  Plenerowe sesje ślubne </p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-reportaz"> <img src={img4}/><p>  Chrzest Święty - reportaż</p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-plener"> <img src={img10}/><p>  Chrzest Święty - plener</p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-swiety-reportaz"> <img src={img6}/><p>  Chrzest Święty - reportaż</p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-swiety-plener"> <img src={img5}/><p>  Chrzest Święta - plener </p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-plener"> <img src={img5}/><p>  Chrzest Święta - plener </p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/sesja-portretowa"> <img src={img7}/> <p>  Sesja portetowa </p> </Link>  </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/sesje-rodzinne"> <img src={img8}/><p>  Sesje rodzinne </p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/osiemnastki"> <img src={img9}/><p>  Osiemnastki </p> </Link> </div>
