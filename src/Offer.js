@@ -62,7 +62,7 @@ useEffect(() => {
         </div>
       </div>
       <div className="content-text">
-              <h1> some h1 </h1>
+              <h2> some h1 </h2>
           lorem ipsim doens't work in XHTML
         </div>
 

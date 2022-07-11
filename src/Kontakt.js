@@ -10,7 +10,7 @@ function Kontakt() {
   return (
       <>
 <div className='contact'>
-      <h1> KONTAKT </h1>
+      <h3> KONTAKT </h3>
       <div className='contact-subsection'>
         <div className='contact-phone'>  <FontAwesomeIcon icon={ faPhoneAlt  } /> Telefon:  725 209 990  </div>
         <div className='contact-email'> <FontAwesomeIcon icon={ faEnvelope  } /> Email: f.f.agnieszkajankowska@gmail.com  </div>

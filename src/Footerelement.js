@@ -15,8 +15,8 @@ function Footerelement() {
      <div className='footer-class'>
        <img src={logo}/>
      </div>
-     <div className='footer-class'>
-       <p className='social-footer'> <FontAwesomeIcon icon={ faFacebook } />  <FontAwesomeIcon icon={ faInstagram } />  </p>
+     <div className='footer-class-svg'>
+       <p className='social-footer'> <a href='https://www.facebook.com/Jankowska.A.Fotografia'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  <a href='https://www.instagram.com/jankowska_agnieszka_fotografia/'> <FontAwesomeIcon icon={ faInstagram } /> </a> </p>
        <p>  <FontAwesomeIcon icon={ faPhoneAlt  } /> 725 209 990 </p>
        <p> <FontAwesomeIcon icon={ faEnvelope  } /> f.f.agnieszkajankowska@gmail.com </p>
      </div>
