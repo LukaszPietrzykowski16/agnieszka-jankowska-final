@@ -3,6 +3,6 @@
 [X] testing on mozilla, saffari ant other browsers i need to do more research on saffari browser
 [X] text size 
 [X] social media link
-[] logo size and after click to main page
+[X] logo size and after click to main page
 [] form authentycation
 [] more photo

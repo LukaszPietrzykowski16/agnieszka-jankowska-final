@@ -55,7 +55,7 @@ function Navigation() {
         <ScrollToTop/>
         <div className='navigation'>
         <div className='logo'>
-        <img src={logo}/>
+        <Link to="/"><img src={logo}/></Link>
         </div>
         <div className='navigation-desktop'>
           <div className='sub-nav'><Link to="/"> STRONA GŁÓWNA </Link> </div>
