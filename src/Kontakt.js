@@ -9,9 +9,7 @@ function Kontakt() {
   const form = useRef();
   
   const sendEmail = (e) => {
-    e.preventDefault();
-  
-    emailjs.sendForm('gmail', 'gmail', form.current, 'a1wPYI42oYECAyoZL')
+    emailjs.sendForm('gmail', 'template_ey7dfvv', form.current, 'a1wPYI42oYECAyoZL')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

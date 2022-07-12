@@ -4,5 +4,5 @@
 [X] text size 
 [X] social media link
 [X] logo size and after click to main page
-[] form authentycation
+[X] form authentycation
 [] more photo
