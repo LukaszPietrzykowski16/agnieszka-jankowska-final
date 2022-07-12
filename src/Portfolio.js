@@ -19,8 +19,8 @@ function Portfolio() {
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/slub-plener"> <img src={img2} alt="Plenerowe sesje ślubne"/><p>  Plenerowe sesje ślubne </p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-reportaz"> <img src={img4} alt="Chrzest Święty - reportaż"/><p>  Chrzest Święty - reportaż</p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-plener"> <img src={img10} alt="Chrzest Święty - plene"/><p>  Chrzest Święty - plener</p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-swiety-reportaz"> <img src={img6} alt="Chrzest Święty - reportaż"/><p>  Chrzest Święty - reportaż</p> </Link> </div>
-          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/chrzest-plener"> <img src={img5} alt="Chrzest Święta - plener"/><p>  Chrzest Święta - plener </p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/ciazowe"> <img src={img6} alt="Sesje brzuszkowe"/><p>  Sesje brzuszkowe </p> </Link> </div>
+          <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/imprezy-okolicznosciowe"> <img src={img5} alt="Chrzest Święta - plener"/><p>  Imprezy okolicznościowe </p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/sesja-portretowa"> <img src={img7} alt="Sesja portetowa"/> <p>  Sesja portetowa </p> </Link>  </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/sesje-rodzinne"> <img src={img8} alt=" Sesje rodzinne"/><p>  Sesje rodzinne </p> </Link> </div>
           <div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <Link to="/osiemnastki"> <img src={img9} alt="Osiemnastki"/><p>  Osiemnastki </p> </Link> </div>
