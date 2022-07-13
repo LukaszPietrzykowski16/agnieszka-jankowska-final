@@ -17,7 +17,7 @@ function Footerelement() {
      </div>
      <div className='footer-class-svg'>
        <p className='social-footer'> <a href='https://www.facebook.com/Jankowska.A.Fotografia'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  <a href='https://www.instagram.com/jankowska_agnieszka_fotografia/'> <FontAwesomeIcon icon={ faInstagram } /> </a> </p>
-       <p>  <FontAwesomeIcon icon={ faPhoneAlt  } /> 725 209 990 </p>
+       <p>  <FontAwesomeIcon icon={ faPhoneAlt  } /> 725 209 997 </p>
        <p> <FontAwesomeIcon icon={ faEnvelope  } /> f.f.agnieszkajankowska@gmail.com </p>
      </div>
      <div className='policy'>

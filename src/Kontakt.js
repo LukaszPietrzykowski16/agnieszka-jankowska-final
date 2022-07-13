@@ -24,7 +24,7 @@ function Kontakt() {
 <div className='contact'>
       <h3> KONTAKT </h3>
       <div className='contact-subsection'>
-        <div className='contact-phone'>  <FontAwesomeIcon icon={ faPhoneAlt  } /> Telefon:  725 209 990  </div>
+        <div className='contact-phone'>  <FontAwesomeIcon icon={ faPhoneAlt  } /> Telefon:  725 209 997  </div>
         <div className='contact-email'> <FontAwesomeIcon icon={ faEnvelope  } /> Email: f.f.agnieszkajankowska@gmail.com  </div>
       </div>
       
