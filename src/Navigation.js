@@ -28,6 +28,10 @@ import ChrzestReportaz from './ChrzestReportaz';
 import Imprezy from './Imprezy';
 import Ciazowe from './Ciazowe';
 import ScrollToTop from './ScrollToTop';
+import Komunia from './Komunia';
+import Osiemnastki from './Osiemnastki';
+import Portretowe from './Portretowe';
+import Rodzinne from './Rodzinne';
 
 function Navigation() {
   
@@ -95,6 +99,10 @@ function Navigation() {
             <Route path="/chrzest-plener" element={<ChrzestPlener />} />
             <Route path="/imprezy-okolicznosciowe" element={<Imprezy />} />
             <Route path="/ciazowe" element={<Ciazowe />} />
+            <Route path="/komunia" element={<Komunia />} />
+            <Route path="/osiemnastki" element={<Osiemnastki />} />
+            <Route path="/sesja-portretowa" element={<Portretowe />} />
+            <Route path="/rodzinne" element={<Rodzinne />} />
         </Routes>
     
     </Router>

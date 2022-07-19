@@ -110,7 +110,7 @@ export default function Galeria() {
       </div>
     </div>
     </Link>
-    <Link to="/chrzest-plener"> 
+    <Link to="/komunia"> 
     <div className='test-gallery-subsection'>
     <div className='test-gallery-subsection-img'>
         <img src={img5} alt="Chrzest święty plener"/>
