@@ -111,32 +111,20 @@ export default function Galeria() {
     </div>
     </Link>
     <Link to="/chrzest-plener"> 
-    <div className='test-gallery-subsection-reverse'>
-     
+    <div className='test-gallery-subsection'>
+    <div className='test-gallery-subsection-img'>
+        <img src={img5} alt="Chrzest święty plener"/>
+      </div>
       <div className='test-gallery-subsection-txt'>
     
         <p> 
         <h1>  Komunia Święta  </h1>
         Komunia święta dla dzieci to z pewnością duże przeżycie. Warto to wydarzenie sfotografować, aby dobrze zapamiętać ten dzień. Moja oferta może zawierać reportaż z przygotowań w domu, ceremonii przyjęcia komunii w kościele oraz podczas uroczystości na sali. Jestem elastyczna i możecie wybrać poszczególne elementy oferty jeśli np. w Waszym kościele jest zamówiony fotograf dla całej grupy to mogę przyjechać pod kościół zrobić rodzinne zdjęcia tylko dla Was przed uroczystością bądź tylko na salę po uroczystości. To Wy decydujecie czego potrzebujecie w tym dniu.  </p>
       </div>
-      <div className='test-gallery-subsection-img'>
-        <img src={img5} alt="Chrzest święty plener"/>
-      </div>
-    </div>
-    </Link>
-    <Link to="/imprezy-okolicznosciowe"> 
-    <div className='test-gallery-subsection'>
-      <div className='test-gallery-subsection-img'>
-        <img src={img2}  alt="Imprezy okolicznosciowe"/>
-      </div>
-      <div className='test-gallery-subsection-txt'>
     
-        <p> 
-        <h1> Imprezy okolicznosciowe </h1>
-        Jest wiele okazji, które mogę zatrzymać w kadrze swojego obiektywu. Zapiszę w kadrach Wasze uroczystości urodzinowe czy imprezy rocznicowe. Tort, dmuchanie świeczek, zabawy i radość dzieci biegających w kółko. Nie ukrywam, że najlepiej się czuję, gdy mogę złapać takie niespodziewane momenty, które są niezaplanowane i niejednokrotnie staną się Waszymi ulubionymi momentami na zdjeciach. Na pozowane ujęcia oczywiście też znajdzie się miejsce. </p>
-      </div>
     </div>
     </Link>
+    
 
     <Link to="/ciazowe"> 
     <div className='test-gallery-subsection-reverse'>
@@ -153,7 +141,22 @@ export default function Galeria() {
       </div>
     </div>
     </Link>
-    <Link to="/chrzest-plener"> 
+
+    <Link to="/imprezy-okolicznosciowe"> 
+    <div className='test-gallery-subsection'>
+      <div className='test-gallery-subsection-img'>
+        <img src={img2}  alt="Imprezy okolicznosciowe"/>
+      </div>
+      <div className='test-gallery-subsection-txt'>
+    
+        <p> 
+        <h1> Imprezy okolicznosciowe </h1>
+        Jest wiele okazji, które mogę zatrzymać w kadrze swojego obiektywu. Zapiszę w kadrach Wasze uroczystości urodzinowe czy imprezy rocznicowe. Tort, dmuchanie świeczek, zabawy i radość dzieci biegających w kółko. Nie ukrywam, że najlepiej się czuję, gdy mogę złapać takie niespodziewane momenty, które są niezaplanowane i niejednokrotnie staną się Waszymi ulubionymi momentami na zdjeciach. Na pozowane ujęcia oczywiście też znajdzie się miejsce. </p>
+      </div>
+    </div>
+    </Link>
+
+    <Link to="/sesja-portretowa"> 
     <div className='test-gallery-subsection-reverse'>
      
       <div className='test-gallery-subsection-txt'>
@@ -168,18 +171,18 @@ export default function Galeria() {
     </div>
     </Link>
 
-    <Link to="/chrzest-plener"> 
-    <div className='test-gallery-subsection-reverse'>
+    <Link to="/osiemnastki"> 
+    <div className='test-gallery-subsection'>
      
+      <div className='test-gallery-subsection-img'>
+        <img src={img5} alt="Chrzest święty plener"/>
+      </div>
       <div className='test-gallery-subsection-txt'>
-    
         <p> 
         <h1>  Osiemnastki </h1>
         Przyda się każdej osobie. Potrzebujesz zdjęć biznesowych na swoją stronę? A może przeszłaś/przeszedłeś zmiany w swoim życiu i chcesz pokazać światu swój nowy wizerunek? Sesję zdjęciową przeżyj jako nowe niesamowite doświadczenie. Pokażę Ci, że możesz wyglądać fantastycznie przed obiektywem, wyeksponuje Twoje zalety, których Ty nie dostrzegasz w sobie na co dzień. Poczuj radość podczas sesji zdjęciowej i uzyskaj piękne portrety, które staną się Twoimi ulubionymi. </p>
       </div>
-      <div className='test-gallery-subsection-img'>
-        <img src={img5} alt="Chrzest święty plener"/>
-      </div>
+      
     </div>
     </Link>
 
