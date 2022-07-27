@@ -3,15 +3,30 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
 
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import img1 from './images/portfolio/imprezy/img1.jpg';
-import img2 from './images/portfolio/imprezy/img2.jpg';
-import img3 from './images/portfolio/imprezy/img3.jpg';
-import img4 from './images/portfolio/imprezy/img4.jpg';
-import img5 from './images/portfolio/imprezy/img5.jpg';
-import img6 from './images/portfolio/imprezy/img6.jpg';
-import img7 from './images/portfolio/imprezy/img7.jpg';
-import img8 from './images/portfolio/imprezy/img8.jpg';
-import img9 from './images/portfolio/imprezy/img9.jpg';
+import img1 from './images/portfolio/komunia/img1.jpg';
+import img2 from './images/portfolio/komunia/img2.jpg';
+import img3 from './images/portfolio/komunia/img3.jpg';
+import img4 from './images/portfolio/komunia/img4.jpg';
+import img5 from './images/portfolio/komunia/img5.jpg';
+import img6 from './images/portfolio/komunia/img6.jpg';
+import img7 from './images/portfolio/komunia/img7.jpg';
+import img8 from './images/portfolio/komunia/img8.jpg';
+import img9 from './images/portfolio/komunia/img9.jpg';
+import img10 from './images/portfolio/komunia/img10.jpg';
+import img11 from './images/portfolio/komunia/img11.jpg';
+import img12 from './images/portfolio/komunia/img12.jpg';
+import img13 from './images/portfolio/komunia/img13.jpg';
+import img14 from './images/portfolio/komunia/img14.jpg';
+import img15 from './images/portfolio/komunia/img15.jpg';
+import img16 from './images/portfolio/komunia/img16.jpg';
+import img17 from './images/portfolio/komunia/img17.jpg';
+import img18 from './images/portfolio/komunia/img18.jpg';
+import img19 from './images/portfolio/komunia/img19.jpg';
+import img20 from './images/portfolio/komunia/img20.jpg';
+import img21 from './images/portfolio/komunia/img21.jpg';
+import img22 from './images/portfolio/komunia/img22.jpg';
+
+
 
 
 const Komunia = () => {
@@ -36,7 +51,39 @@ const Komunia = () => {
         },
         {id: 9,
             imageUrl: img9 
-        }
+        },
+        {id: 10,
+            imageUrl: img10 
+        },
+        {id: 11,
+            imageUrl: img11},
+        {id: 12,
+            imageUrl: img12},
+        {id: 13,
+            imageUrl: img13},
+        {id: 14,
+            imageUrl: img14},
+        {id: 15,
+            imageUrl: img15},
+        {id: 16,
+            imageUrl: img16},
+        {id: 17,
+            imageUrl: img17}, 
+        {id: 18,
+            imageUrl: img18 
+        },
+        {id: 19,
+            imageUrl: img19 
+        },
+        {id: 20,
+            imageUrl: img20 
+        },
+        {id: 21,
+            imageUrl: img21},
+        {id: 22,
+            imageUrl: img22},
+
+        
         
             
     ]

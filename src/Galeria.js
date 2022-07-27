@@ -171,7 +171,7 @@ export default function Galeria() {
     </div>
     </Link>
 
-    <Link to="/osiemnastki"> 
+    <Link to="/imprezy-okolicznosciowe"> 
     <div className='test-gallery-subsection'>
      
       <div className='test-gallery-subsection-img'>
@@ -179,7 +179,7 @@ export default function Galeria() {
       </div>
       <div className='test-gallery-subsection-txt'>
         <p> 
-        <h1>  Osiemnastki </h1>
+        <h1>  Imprezy okolicznosciowe </h1>
         Przyda się każdej osobie. Potrzebujesz zdjęć biznesowych na swoją stronę? A może przeszłaś/przeszedłeś zmiany w swoim życiu i chcesz pokazać światu swój nowy wizerunek? Sesję zdjęciową przeżyj jako nowe niesamowite doświadczenie. Pokażę Ci, że możesz wyglądać fantastycznie przed obiektywem, wyeksponuje Twoje zalety, których Ty nie dostrzegasz w sobie na co dzień. Poczuj radość podczas sesji zdjęciowej i uzyskaj piękne portrety, które staną się Twoimi ulubionymi. </p>
       </div>
       

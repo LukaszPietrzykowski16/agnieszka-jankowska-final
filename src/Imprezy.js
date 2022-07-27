@@ -12,9 +12,14 @@ import img6 from './images/portfolio/imprezy/img6.jpg';
 import img7 from './images/portfolio/imprezy/img7.jpg';
 import img8 from './images/portfolio/imprezy/img8.jpg';
 import img9 from './images/portfolio/imprezy/img9.jpg';
+import img10 from './images/portfolio/imprezy/img10.jpg';
+import img11 from './images/portfolio/imprezy/img11.jpg';
+import img12 from './images/portfolio/imprezy/img12.jpg';
+import img13 from './images/portfolio/imprezy/img13.jpg';
+import img14 from './images/portfolio/imprezy/img14.jpg';
+import img15 from './images/portfolio/imprezy/img15.jpg';
 
-
-const Reportaz = () => {
+const Imprezy = () => {
     
     const imageList = [
         {id: 1,
@@ -36,7 +41,20 @@ const Reportaz = () => {
         },
         {id: 9,
             imageUrl: img9 
-        }
+        }, 
+        {id: 10,
+            imageUrl: img10 
+        },
+        {id: 11,
+            imageUrl: img11},
+        {id: 12,
+            imageUrl: img12},
+        {id: 13,
+            imageUrl: img13},
+        {id: 14,
+            imageUrl: img14},
+        {id: 15,
+            imageUrl: img15},
         
             
     ]
@@ -113,4 +131,5 @@ const Reportaz = () => {
 }
 
 
-export default Reportaz; 
+export default Imprezy; 
+
