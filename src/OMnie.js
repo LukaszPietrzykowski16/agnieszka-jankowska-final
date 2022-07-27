@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from './images/IMG_9425a.jpg';
+import img1 from './images/IMG_9425a.webp';
 
 function OMnie() {
   return (
