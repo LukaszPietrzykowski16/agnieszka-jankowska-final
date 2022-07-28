@@ -32,6 +32,8 @@ import Komunia from './Komunia';
 import Osiemnastki from './Osiemnastki';
 import Portretowe from './Portretowe';
 import Rodzinne from './Rodzinne';
+import Panel from './firstPanel'
+import HomeFiz from './HomeFiz';
 
 function Navigation() {
   
@@ -62,7 +64,7 @@ function Navigation() {
         <Link to="/"><img src={logo}/></Link>
         </div>
         <div className='navigation-desktop'>
-          <div className='sub-nav'><Link to="/"> STRONA GŁÓWNA </Link> </div>
+          <div className='sub-nav'><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
           <div className='sub-nav'><Link to="/gallery"> PORTFOLIO </Link> </div>
           <div className='sub-nav'><Link to="/oferta"> OFERTA </Link> </div>
           <div className='sub-nav'><Link to="/kontakt"> KONTAKT </Link> </div>
@@ -78,7 +80,7 @@ function Navigation() {
           <div className='box'>
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/"> STRONA GŁÓWNA </Link> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/gallery"> PORTFOLIO </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/oferta"> OFERTA </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/kontakt"> KONTAKT </Link> </div>
@@ -88,7 +90,9 @@ function Navigation() {
         
         </div>
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Panel />} />
+            <Route path="/fotografia" element={<Home />} />
+            <Route path="/fizjoterapia" element={<HomeFiz />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/oferta" element={<Oferta />} />
             <Route path="/kontakt" element={<Kontakt />} />
@@ -108,7 +112,7 @@ function Navigation() {
     </Router>
   
     
-   <Footerelement />
+ 
    </>
   );
 }

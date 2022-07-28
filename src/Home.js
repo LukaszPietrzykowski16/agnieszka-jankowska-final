@@ -13,10 +13,6 @@ import ContactFizjo from './ContactFizjo'
 function Home() {
   return (
     <>
-   <Panel />
-   <Fizjo />
-   <List />
-   <ContactFizjo />
    <Content />
    <About /> 
    <Portfolio />
