@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback}  from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
-
+import Menu from './Menu';
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import img1 from './images/portfolio/komunia/img1.jpg';
 import img2 from './images/portfolio/komunia/img2.jpg';
@@ -139,6 +139,7 @@ const Komunia = () => {
 
     return (
         <>
+        <Menu />
          <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery(lightbox)}> <FontAwesomeIcon icon={ faTimesCircle }/> </div>

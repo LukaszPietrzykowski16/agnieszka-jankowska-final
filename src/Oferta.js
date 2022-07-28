@@ -7,7 +7,7 @@ import img5 from './images/portfolio/offer/img5.webp';
 import img6 from './images/portfolio/offer/img6.webp';
 import  gsap  from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import Menu from './Menu';
 
 
 export default function Oferta() {
@@ -29,6 +29,7 @@ export default function Oferta() {
 
 
   return (<>
+  <Menu />
   <div className='oferta-baner'>
       
   </div>

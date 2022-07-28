@@ -14,7 +14,7 @@ import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Reportaz from './Reportaz';
-import Home from './Home';
+import Menu from './Menu';
 
 export default function Galeria() {
   gsap.registerPlugin(ScrollTrigger);
@@ -46,7 +46,7 @@ export default function Galeria() {
   }, [])
 
   return ( <>  
- 
+ <Menu />
   <div className='test-gallery'>
    
     <Link to="/reportaz-slubny"> 

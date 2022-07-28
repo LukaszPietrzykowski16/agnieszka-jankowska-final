@@ -1,9 +1,11 @@
 import React from 'react';
 import img1 from './images/IMG_9425a.webp';
+import Menu from './Menu';
 
 function OMnie() {
   return (
       <>
+      <Menu />
     <div className='about-section'> 
       <div className='about-photo'>
           <img src={img1} alt="Zdjecię przedstawiające Agnieszkę Jankowską" />

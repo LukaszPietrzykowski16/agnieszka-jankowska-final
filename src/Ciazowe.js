@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
 
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-
+import Menu from './Menu';
 import img1 from './images/portfolio/sesje-ciazowe/img1.jpg';
 import img2 from './images/portfolio/sesje-ciazowe/img2.jpg';
 import img3 from './images/portfolio/sesje-ciazowe/img3.jpg';
@@ -132,6 +132,7 @@ const Reportaz = () => {
 
     return (
         <>
+        <Menu />
          <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery(lightbox)}> <FontAwesomeIcon icon={ faTimesCircle }/> </div>

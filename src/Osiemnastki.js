@@ -12,6 +12,7 @@ import img6 from './images/portfolio/imprezy/img6.jpg';
 import img7 from './images/portfolio/imprezy/img7.jpg';
 import img8 from './images/portfolio/imprezy/img8.jpg';
 import img9 from './images/portfolio/imprezy/img9.jpg';
+import Menu from './Menu';
 
 
 const Osiemnastki = () => {
@@ -92,6 +93,7 @@ const Osiemnastki = () => {
 
     return (
         <>
+        <Menu />
          <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery(lightbox)}> <FontAwesomeIcon icon={ faTimesCircle }/> </div>

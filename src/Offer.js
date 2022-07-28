@@ -6,7 +6,7 @@ import img3 from './images/portfolio/offer/img3.webp';
 import img4 from './images/portfolio/offer/img4.webp';
 import img5 from './images/portfolio/offer/img5.webp';
 import img6 from './images/portfolio/offer/img6.webp';
-
+import Menu from './Menu';
 // it's seems to working finally
 
 const images = [img1, img2, img3, img4, img5, img6]
@@ -42,6 +42,7 @@ useEffect(() => {
 
   return (
     <>
+    <Menu />
     <div className="content-gallery">
       <div className="content">
         <div  className="content-img">

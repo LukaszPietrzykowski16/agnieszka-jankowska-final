@@ -4,6 +4,8 @@ import  gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './App.scss';
 
+
+
 function About() {
   gsap.registerPlugin(ScrollTrigger);
  

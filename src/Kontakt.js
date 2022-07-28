@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import emailjs from '@emailjs/browser';
-
+import Menu from './Menu';
 function Kontakt() {
  
   const form = useRef();
@@ -21,6 +21,7 @@ function Kontakt() {
 
   return (
       <>
+      <Menu />
 <div className='contact'>
       <h3> KONTAKT </h3>
       <div className='contact-subsection'>

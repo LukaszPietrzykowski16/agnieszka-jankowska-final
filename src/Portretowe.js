@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback}  from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
-
+import Menu from './Menu';
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import img0 from './images/portfolio/sesje-portretowe/img0.jpg';
 import img1 from './images/portfolio/sesje-portretowe/img1.jpg';
@@ -231,6 +231,7 @@ const Portretowe = () => {
 
     return (
         <>
+        <Menu />
          <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery(lightbox)}> <FontAwesomeIcon icon={ faTimesCircle }/> </div>

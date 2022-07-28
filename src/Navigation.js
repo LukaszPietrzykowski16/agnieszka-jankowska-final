@@ -59,36 +59,7 @@ function Navigation() {
     
     <Router>
         <ScrollToTop/>
-        <div className='navigation'>
-        <div className='logo'>
-        <Link to="/"><img src={logo}/></Link>
-        </div>
-        <div className='navigation-desktop'>
-          <div className='sub-nav'><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
-          <div className='sub-nav'><Link to="/gallery"> PORTFOLIO </Link> </div>
-          <div className='sub-nav'><Link to="/oferta"> OFERTA </Link> </div>
-          <div className='sub-nav'><Link to="/kontakt"> KONTAKT </Link> </div>
-          <div className='sub-nav'><Link to="/o-mnie"> O MNIE </Link> </div>
-        </div>
-
-     
-          <div className='sub-nav-mobile-x' onClick={() => hideMenu(menu)}> 
-            <FontAwesomeIcon icon={ menu ?  faXmarkCircle  : faBars} />
-          </div>
-         
-          </div>
-          <div className='box'>
-            <div className={menu ?  "menu-open": "menu-close"}>
-            <div className='navigation-mobile'>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/gallery"> PORTFOLIO </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/oferta"> OFERTA </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/kontakt"> KONTAKT </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/o-mnie"> O MNIE </Link> </div>
-            </div>
-        </div>
-        
-        </div>
+      
         <Routes>
             <Route path="/" element={<Panel />} />
             <Route path="/fotografia" element={<Home />} />
