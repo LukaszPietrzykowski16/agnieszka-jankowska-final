@@ -58,13 +58,12 @@ useEffect(() => {
           ))}
         </div>
         <div className="content-text-mobile">
-        test
+         <p> Oferuję szeroki zakres, personalizowanych albumów. </p>
         </div>
       </div>
       <div className="content-text">
-              <h2> some h1 </h2>
-          lorem ipsim doens't work in XHTML
-        </div>
+        <p> Oferuję szeroki zakres, personalizowanych albumów. </p>
+      </div>
 
     </div>   
   

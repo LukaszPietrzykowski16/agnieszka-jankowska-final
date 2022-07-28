@@ -5,4 +5,4 @@
 [X] social media link
 [X] logo size and after click to main page
 [X] form authentycation
-[] more photo
+[X] more photo

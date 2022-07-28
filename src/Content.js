@@ -10,8 +10,8 @@ function Content() {
         Fotografia <span>
           Ślubna<br/>
           Okolicznościowa<br/>
-          Zjawiskowa<br/>
-          Profesjonalna
+          Rodzinna<br/>
+          Portretowa<br/>
         </span>
     </div>
     </div>

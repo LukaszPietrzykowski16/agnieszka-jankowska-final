@@ -804,6 +804,7 @@ footer {
 
 .photo-oferta,
 .photo-img {
+  padding-top: 20px;
   @include threeMagicLines();
   width: 50vw;
   img {
