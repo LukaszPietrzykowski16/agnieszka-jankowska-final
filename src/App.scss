@@ -938,6 +938,21 @@ footer {
 }
 
 @media (max-width: 1060px) {
+  .panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .left-panel {
+    width: 100%;
+  }
+  .right-panel {
+    width: 100%;
+  }
+  
+  
   .sub-nav-mobile-x {
     position: relative;
     z-index: 100;
