@@ -798,6 +798,85 @@ footer {
   align-items: end;
 }
 
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3em;
+}
+
+.left-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/fizjo.PNG);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+  filter: grayscale(70%);
+  transition: filter 0.4s ease-in-out;
+}
+
+.left-panel:hover {
+  filter: grayscale(0%);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.right-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/IMG_9096abc.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+  filter: grayscale(70%);
+  transition: filter 0.4s ease-in-out;
+  
+}
+
+.right-panel:hover {
+  filter: grayscale(0%);
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.title {
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
+}
+
+.title::after{
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 5px;
+	background-color: $darkPink;
+	left: 50%;
+	bottom: -5px;
+	transition: all 0.4s ease-in-out;
+}
+
+.title:hover::after  {
+	width: 100%;
+	left: 0;
+}
+
 .oferta-baner {
   height: 30vh;
 }
