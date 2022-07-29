@@ -42,7 +42,6 @@ useEffect(() => {
 
   return (
     <>
-    <Menu />
     <div className="content-gallery">
       <div className="content">
         <div  className="content-img">

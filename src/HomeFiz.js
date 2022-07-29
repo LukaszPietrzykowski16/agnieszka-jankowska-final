@@ -1,6 +1,8 @@
 import Fizjo from './Fizjo';
 import List from './List';
-import ContactFizjo from './ContactFizjo'
+import ContactFizjo from './ContactFizjo';
+import Footer from './Footerelement'
+
 
 function HomeFiz() {
   return (
@@ -8,6 +10,7 @@ function HomeFiz() {
    <Fizjo />
    <List />
    <ContactFizjo />
+   <Footer />
     </>
    );
 }

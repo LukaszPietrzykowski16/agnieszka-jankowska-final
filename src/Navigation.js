@@ -34,6 +34,7 @@ import Portretowe from './Portretowe';
 import Rodzinne from './Rodzinne';
 import Panel from './firstPanel'
 import HomeFiz from './HomeFiz';
+import Footer from './Footerelement'
 
 function Navigation() {
   
@@ -83,7 +84,7 @@ function Navigation() {
     </Router>
   
     
- 
+    <Footer/>
    </>
   );
 }
