@@ -948,6 +948,18 @@ footer {
 }
 
 @media (max-width: 1060px) {
+  .about-info {
+    width: 90vw;
+  }
+
+  .cont {
+    flex-wrap: wrap;
+  }
+
+  .cont-sub {
+    text-align: center;
+  }
+
   .panel {
     display: flex;
     justify-content: center;
