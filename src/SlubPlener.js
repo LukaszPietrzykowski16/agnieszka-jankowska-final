@@ -40,6 +40,7 @@ import img32 from './images/portfolio/sesje-slubne-plener/img32.jpg';
 import img33 from './images/portfolio/sesje-slubne-plener/img33.jpg';
 import img34 from './images/portfolio/sesje-slubne-plener/img34.jpg';
 import img35 from './images/portfolio/sesje-slubne-plener/img35.jpg';
+import Footerelement from './Footerelement';
 
 const Reportaz = () => {
     
@@ -194,7 +195,7 @@ const Reportaz = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

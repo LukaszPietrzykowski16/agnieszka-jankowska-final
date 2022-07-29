@@ -25,6 +25,7 @@ import img19 from './images/portfolio/komunia/img19.jpg';
 import img20 from './images/portfolio/komunia/img20.jpg';
 import img21 from './images/portfolio/komunia/img21.jpg';
 import img22 from './images/portfolio/komunia/img22.jpg';
+import Footerelement from './Footerelement';
 
 
 
@@ -155,7 +156,7 @@ const Komunia = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

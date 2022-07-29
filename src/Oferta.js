@@ -8,6 +8,7 @@ import img6 from './images/portfolio/offer/img6.webp';
 import  gsap  from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Menu from './Menu';
+import Footerelement from './Footerelement';
 
 
 export default function Oferta() {
@@ -55,5 +56,6 @@ export default function Oferta() {
   <div className='oferta-baner'>
       
  </div>
+ <Footerelement />
   </>);
 }

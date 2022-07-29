@@ -55,6 +55,7 @@ import img47 from './images/portfolio/reportaz-slubny/img47.jpg';
 import img48 from './images/portfolio/reportaz-slubny/img48.jpg';
 import img49 from './images/portfolio/reportaz-slubny/img49.jpg';
 import img50 from './images/portfolio/reportaz-slubny/img50.jpg';
+import Footerelement from './Footerelement';
 
 const Reportaz = () => {
     
@@ -248,7 +249,7 @@ const Reportaz = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

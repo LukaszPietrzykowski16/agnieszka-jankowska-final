@@ -29,6 +29,7 @@ import img22 from './images/portfolio/sesje-rodzinne/img22.jpg';
 import img23 from './images/portfolio/sesje-rodzinne/img23.jpg';
 import img24 from './images/portfolio/sesje-rodzinne/img24.jpg';
 import img25 from './images/portfolio/sesje-rodzinne/img25.jpg';
+import Footerelement from './Footerelement';
 
 
 const Rodzinne = () => {
@@ -161,7 +162,7 @@ const Rodzinne = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

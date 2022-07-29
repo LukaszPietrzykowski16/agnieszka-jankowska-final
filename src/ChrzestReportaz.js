@@ -55,6 +55,7 @@ import img47 from './images/portfolio/chrzest-sw-reportaz/img47.jpg';
 import img48 from './images/portfolio/chrzest-sw-reportaz/img48.jpg';
 import img49 from './images/portfolio/chrzest-sw-reportaz/img49.jpg';
 import img50 from './images/portfolio/chrzest-sw-reportaz/img50.jpg';
+import Footerelement from './Footerelement';
 
 const Reportaz = () => {
     
@@ -246,7 +247,7 @@ const Reportaz = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

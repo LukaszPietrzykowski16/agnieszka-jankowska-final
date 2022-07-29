@@ -15,6 +15,7 @@ import  gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Reportaz from './Reportaz';
 import Menu from './Menu';
+import Footerelement from './Footerelement';
 
 export default function Galeria() {
   gsap.registerPlugin(ScrollTrigger);
@@ -191,7 +192,7 @@ export default function Galeria() {
   
   </div>
   
-    
+    <Footerelement />
   </>
   )
 }

@@ -18,6 +18,7 @@ import img12 from './images/portfolio/imprezy/img12.jpg';
 import img13 from './images/portfolio/imprezy/img13.jpg';
 import img14 from './images/portfolio/imprezy/img14.jpg';
 import img15 from './images/portfolio/imprezy/img15.jpg';
+import Footerelement from './Footerelement';
 
 const Imprezy = () => {
     
@@ -126,7 +127,7 @@ const Imprezy = () => {
             )
         })}
         </div>
-      
+        <Footerelement/>
         </>
     )
 }

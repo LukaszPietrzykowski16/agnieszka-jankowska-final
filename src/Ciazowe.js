@@ -25,6 +25,7 @@ import img17 from './images/portfolio/sesje-ciazowe/img17.jpg';
 import img18 from './images/portfolio/sesje-ciazowe/img18.jpg';
 import img19 from './images/portfolio/sesje-ciazowe/img19.jpg';
 import img20 from './images/portfolio/sesje-ciazowe/img20.jpg';
+import Footerelement from './Footerelement';
 
 
 const Reportaz = () => {
@@ -148,7 +149,7 @@ const Reportaz = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }

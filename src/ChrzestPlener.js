@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
 import Menu from './Menu';
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-
+import Footer from './Footerelement';
 import img1 from './images/portfolio/chrzest-sw-plener/img1.jpg';
 import img2 from './images/portfolio/chrzest-sw-plener/img2.jpg';
 import img3 from './images/portfolio/chrzest-sw-plener/img3.jpg';
@@ -167,7 +167,7 @@ const Reportaz = () => {
             )
         })}
         </div>
-      
+        <Footer/>
         </>
     )
 }

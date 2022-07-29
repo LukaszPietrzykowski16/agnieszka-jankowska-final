@@ -13,6 +13,7 @@ import img7 from './images/portfolio/imprezy/img7.jpg';
 import img8 from './images/portfolio/imprezy/img8.jpg';
 import img9 from './images/portfolio/imprezy/img9.jpg';
 import Menu from './Menu';
+import Footerelement from './Footerelement';
 
 
 const Osiemnastki = () => {
@@ -109,7 +110,7 @@ const Osiemnastki = () => {
             )
         })}
         </div>
-      
+        <Footerelement />
         </>
     )
 }
