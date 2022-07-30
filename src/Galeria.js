@@ -8,8 +8,8 @@ import img5 from './images/portfolio/0138.webp';
 import img6 from './images/portfolio/13.webp';
 import img7 from './images/portfolio/IMG_6122.webp';
 import img8 from './images/portfolio/IMG_2887.webp';
-import img9 from './images/portfolio/IMG_7111.webp';
-import img10 from './images/portfolio/IMG_7111.webp';
+import img9 from './images/portfolio/komunia.jpg';
+import img10 from './images/portfolio/komunia.jpg';
 import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -126,36 +126,38 @@ export default function Galeria() {
     </div>
     </Link>
     
-
-    <Link to="/ciazowe"> 
-    <div className='test-gallery-subsection-reverse'>
-    
-      <div className='test-gallery-subsection-txt'>
-    
-        <p> 
-        <h1> Ciazowe </h1>
-        Ciąża to niewątpliwie niezwykły czas dla każdej kobiety. Zdjęcia ciążowe to piękna pamiątka zarówno dla mamy i taty z tego wyjątkowego okresu. Podczas sesji ciążowej staram się uwiecznić wszystkie Wasze emocje, jakie towarzyszą oczekującym rodzicom na swojego maluszka. </p>
-      </div>
-
-      <div className='test-gallery-subsection-img'>
-        <img src={img2} alt="Ciazowe" />
-      </div>
-    </div>
-    </Link>
-
     <Link to="/imprezy-okolicznosciowe"> 
-    <div className='test-gallery-subsection'>
+    <div className='test-gallery-subsection-reverse'>
+    <div className='test-gallery-subsection-txt'>
+    
+    <p> 
+    <h1> Imprezy okolicznościowe </h1>
+    Jest wiele okazji, które mogę zatrzymać w kadrze swojego obiektywu. Zapiszę w kadrach Wasze uroczystości urodzinowe czy imprezy rocznicowe. Tort, dmuchanie świeczek, zabawy i radość dzieci biegających w kółko. Nie ukrywam, że najlepiej się czuję, gdy mogę złapać takie niespodziewane momenty, które są niezaplanowane i niejednokrotnie staną się Waszymi ulubionymi momentami na zdjeciach. Na pozowane ujęcia oczywiście też znajdzie się miejsce. </p>
+  </div>
       <div className='test-gallery-subsection-img'>
         <img src={img2}  alt="Imprezy okolicznosciowe"/>
       </div>
+      
+    </div>
+    </Link>
+
+
+    <Link to="/ciazowe"> 
+    <div className='test-gallery-subsection'>
+    
+      <div className='test-gallery-subsection-img'>
+        <img src={img2} alt="Ciazowe" />
+      </div>
       <div className='test-gallery-subsection-txt'>
     
         <p> 
-        <h1> Imprezy okolicznosciowe </h1>
-        Jest wiele okazji, które mogę zatrzymać w kadrze swojego obiektywu. Zapiszę w kadrach Wasze uroczystości urodzinowe czy imprezy rocznicowe. Tort, dmuchanie świeczek, zabawy i radość dzieci biegających w kółko. Nie ukrywam, że najlepiej się czuję, gdy mogę złapać takie niespodziewane momenty, które są niezaplanowane i niejednokrotnie staną się Waszymi ulubionymi momentami na zdjeciach. Na pozowane ujęcia oczywiście też znajdzie się miejsce. </p>
+        <h1> Sesje ciążowe </h1>
+        Ciąża to niewątpliwie niezwykły czas dla każdej kobiety. Zdjęcia ciążowe to piękna pamiątka zarówno dla mamy i taty z tego wyjątkowego okresu. Podczas sesji ciążowej staram się uwiecznić wszystkie Wasze emocje, jakie towarzyszą oczekującym rodzicom na swojego maluszka. </p>
       </div>
     </div>
     </Link>
+
+    
 
     <Link to="/sesja-portretowa"> 
     <div className='test-gallery-subsection-reverse'>
@@ -163,7 +165,7 @@ export default function Galeria() {
       <div className='test-gallery-subsection-txt'>
     
         <p> 
-        <h1>  Sesja portretowa </h1>
+        <h1>  Sesje portretowe </h1>
         Przyda się każdej osobie. Potrzebujesz zdjęć biznesowych na swoją stronę? A może przeszłaś/przeszedłeś zmiany w swoim życiu i chcesz pokazać światu swój nowy wizerunek? Sesję zdjęciową przeżyj jako nowe niesamowite doświadczenie. Pokażę Ci, że możesz wyglądać fantastycznie przed obiektywem, wyeksponuje Twoje zalety, których Ty nie dostrzegasz w sobie na co dzień. Poczuj radość podczas sesji zdjęciowej i uzyskaj piękne portrety, które staną się Twoimi ulubionymi. </p>
       </div>
       <div className='test-gallery-subsection-img'>
@@ -180,7 +182,7 @@ export default function Galeria() {
       </div>
       <div className='test-gallery-subsection-txt'>
         <p> 
-        <h1>  Imprezy okolicznosciowe </h1>
+        <h1>  Sesje rodzinne </h1>
         Przyda się każdej osobie. Potrzebujesz zdjęć biznesowych na swoją stronę? A może przeszłaś/przeszedłeś zmiany w swoim życiu i chcesz pokazać światu swój nowy wizerunek? Sesję zdjęciową przeżyj jako nowe niesamowite doświadczenie. Pokażę Ci, że możesz wyglądać fantastycznie przed obiektywem, wyeksponuje Twoje zalety, których Ty nie dostrzegasz w sobie na co dzień. Poczuj radość podczas sesji zdjęciowej i uzyskaj piękne portrety, które staną się Twoimi ulubionymi. </p>
       </div>
       

@@ -119,6 +119,14 @@ a:visited {
   width: 100vw;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: justify;
+}
+
+.test-gallery-subsection-txt h1 {
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 200;
+  color:rgb(34, 34, 34);
 }
 
 
@@ -272,6 +280,9 @@ a:visited {
 .about-text {
   width: 50vw;
   margin: 20px;
+  p {
+    font-size: 1.1em;
+  }
 }
 
 .container-text {
@@ -712,6 +723,15 @@ button {
   width: 50vw;
 }
 
+.contact-test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+  align-self: center;
+ 
+}
+
 .contact {
   display: flex wrap;
   text-align: center;
@@ -719,7 +739,7 @@ button {
   align-items: center;
   background-image: url(/images/IMG_9096abc.webp);
   background-color: rgb(106, 115, 218);
-  height: 70vh;
+  height: 60vh;
   background-position: center;
   background-size: cover;
   color: white;
@@ -729,9 +749,9 @@ button {
   background-size: cover;
 
   h3 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-size: 4em;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
 
   svg {
@@ -739,17 +759,21 @@ button {
   }
 }
 
+.contact-phone {
+  padding-top: 4vh;
+}
+
 .contact-subsection {
-  background-color: white;
+
+  background-color: rgba(255, 255, 255, 0.644);
   color: black;
   display: flex wrap;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  width: 80vw;
-  height: 40vh;
+
+  width: 70vw;
+  height: 20vh;
   font-size: 3em;
 }
 
@@ -994,10 +1018,7 @@ footer {
     position: relative;
     transform: translateY(0);
   }
-  .test-gallery-subsection-txt {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+ 
 
   .content-text-mobile {
     display: flex;
