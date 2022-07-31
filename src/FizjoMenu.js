@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from './images/logo.png';
+import logo from './images/LogoFizjo.png';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons'
@@ -44,11 +44,9 @@ function FizjoMenu() {
           <div className='box'>
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/gallery"> PORTFOLIO </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/oferta"> OFERTA </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/kontakt"> KONTAKT </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/o-mnie"> O MNIE </Link> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}>  <a href='#about-info'>  OFERTA </a> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> <a href='#about-info'>  KONTAKT  </a> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> <a href="https://zarejestrowani.pl/w/B2JkdikyN6ovHOTYBVwB3A/?fbclid=IwAR2oDVzoMbVaYxWM5V4aO9DT8qs5hzcq6pChMytsYuYFhHsMBLV-n_z3VO0"> ZAREJSTRUJ SIĘ </a> </div>
             </div>
         </div>
         
