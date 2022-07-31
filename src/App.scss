@@ -873,7 +873,7 @@ footer {
   
 }
 
-.about-info {
+#about-info {
   @include fourMagicLines();
   font-size: 1.5em;
   width: 60vw;
@@ -972,7 +972,7 @@ footer {
 }
 
 @media (max-width: 1060px) {
-  .about-info {
+  #about-info {
     width: 90vw;
   }
 

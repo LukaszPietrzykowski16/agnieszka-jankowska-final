@@ -5,7 +5,7 @@ function List() {
     return (
         <>
 
-      <div className='about-info'>
+      <div id='about-info'>
           <h2> Z czym możesz się do mnie zgłosić? </h2>
           <h3> Kiedy: </h3>
           <ul>
