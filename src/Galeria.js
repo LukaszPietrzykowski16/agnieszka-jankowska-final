@@ -1,15 +1,17 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import img1 from './images/IMG_9425a.webp';
+import img1 from './images/portfolio/sesje portretowe.webp';
 import img2 from './images/portfolio/IMG_6122.webp';
 import img3 from './images/portfolio/IMG_2887.webp';
 import img4 from './images/portfolio/7.webp';
-import img5 from './images/portfolio/0138.webp';
+import img5 from './images/portfolio/chrzest plener.jpg';
 import img6 from './images/portfolio/13.webp';
-import img7 from './images/portfolio/IMG_6122.webp';
-import img8 from './images/portfolio/IMG_2887.webp';
+import img7 from './images/portfolio/3.jpg';
+import img8 from './images/portfolio/sesje rodzinne.jpg';
 import img9 from './images/portfolio/komunia.jpg';
 import img10 from './images/portfolio/komunia.jpg';
+import img11 from './images/portfolio/1.jpg';
+
 import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -114,7 +116,7 @@ export default function Galeria() {
     <Link to="/komunia"> 
     <div className='test-gallery-subsection'>
     <div className='test-gallery-subsection-img'>
-        <img src={img5} alt="Chrzest święty plener"/>
+        <img src={img6} alt="Chrzest święty plener"/>
       </div>
       <div className='test-gallery-subsection-txt'>
     
@@ -135,7 +137,7 @@ export default function Galeria() {
     Jest wiele okazji, które mogę zatrzymać w kadrze swojego obiektywu. Zapiszę w kadrach Wasze uroczystości urodzinowe czy imprezy rocznicowe. Tort, dmuchanie świeczek, zabawy i radość dzieci biegających w kółko. Nie ukrywam, że najlepiej się czuję, gdy mogę złapać takie niespodziewane momenty, które są niezaplanowane i niejednokrotnie staną się Waszymi ulubionymi momentami na zdjeciach. Na pozowane ujęcia oczywiście też znajdzie się miejsce. </p>
   </div>
       <div className='test-gallery-subsection-img'>
-        <img src={img2}  alt="Imprezy okolicznosciowe"/>
+        <img src={img11}  alt="Imprezy okolicznosciowe"/>
       </div>
       
     </div>
@@ -146,7 +148,7 @@ export default function Galeria() {
     <div className='test-gallery-subsection'>
     
       <div className='test-gallery-subsection-img'>
-        <img src={img2} alt="Ciazowe" />
+        <img src={img7} alt="Ciazowe" />
       </div>
       <div className='test-gallery-subsection-txt'>
     
@@ -169,7 +171,7 @@ export default function Galeria() {
         Przyda się każdej osobie. Potrzebujesz zdjęć biznesowych na swoją stronę? A może przeszłaś/przeszedłeś zmiany w swoim życiu i chcesz pokazać światu swój nowy wizerunek? Sesję zdjęciową przeżyj jako nowe niesamowite doświadczenie. Pokażę Ci, że możesz wyglądać fantastycznie przed obiektywem, wyeksponuje Twoje zalety, których Ty nie dostrzegasz w sobie na co dzień. Poczuj radość podczas sesji zdjęciowej i uzyskaj piękne portrety, które staną się Twoimi ulubionymi. </p>
       </div>
       <div className='test-gallery-subsection-img'>
-        <img src={img5} alt="Chrzest święty plener"/>
+        <img src={img1} alt="Chrzest święty plener"/>
       </div>
     </div>
     </Link>
@@ -178,7 +180,7 @@ export default function Galeria() {
     <div className='test-gallery-subsection'>
      
       <div className='test-gallery-subsection-img'>
-        <img src={img5} alt="Chrzest święty plener"/>
+        <img src={img8} alt="Chrzest święty plener"/>
       </div>
       <div className='test-gallery-subsection-txt'>
         <p> 
