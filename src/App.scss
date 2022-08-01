@@ -99,13 +99,14 @@ a:visited {
 }
 
 .test-gallery-subsection-img {
-  width: 100vw;
+  width: 105vw;
   height: 40vh;
   img {
     width: 100%;
     height: 100%;
   }
 }
+
 
 .transition-effect {
   position: absolute;
@@ -741,7 +742,7 @@ button {
   align-items: center;
   background-image: url(/images/IMG_9096abc.webp);
   background-color: rgb(106, 115, 218);
-  height: 60vh;
+  height: 80vh;
   background-position: center;
   background-size: cover;
   color: white;
@@ -751,9 +752,8 @@ button {
   background-size: cover;
 
   h3 {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     font-size: 4em;
+    padding-top: 10vh;
   }
 
   svg {
@@ -773,9 +773,10 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   width: 70vw;
-  height: 20vh;
+  height: 30vh;
   font-size: 3em;
 }
 

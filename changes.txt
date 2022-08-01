@@ -6,3 +6,6 @@
 [X] logo size and after click to main page
 [X] form authentycation
 [X] more photo
+[X] kontakt more responsive?
+[] diffrent social media
+[] oferta this section is broken

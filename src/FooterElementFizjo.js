@@ -16,7 +16,7 @@ function FooterelementFizjo() {
        <img src={logo}/>
      </div>
      <div className='footer-class-svg'>
-       <p className='social-footer'> <a href='https://www.facebook.com/Jankowska.A.Fotografia'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  <a href='https://www.instagram.com/jankowska_agnieszka_fotografia/'> <FontAwesomeIcon icon={ faInstagram } /> </a> </p>
+       <p className='social-footer'> <a href='https://www.facebook.com/fizjoterapia.Agnieszka.Jankowska'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  </p>
        <p>  <FontAwesomeIcon icon={ faPhoneAlt  } /> 725 209 997 </p>
        <p> <FontAwesomeIcon icon={ faEnvelope  } /> f.f.agnieszkajankowska@gmail.com </p>
      </div>
