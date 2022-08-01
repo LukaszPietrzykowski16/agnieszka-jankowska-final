@@ -401,7 +401,7 @@ button {
   // Required, since we're setting absolute on pseudo-elements
   position: relative;
   vertical-align: middle;
-
+/* it's breaking my responisve idk why
   &::before,
   &::after {
     box-sizing: inherit;
@@ -410,6 +410,7 @@ button {
     width: 100%;
     height: 100%;
   }
+  */
 }
 
 .porfolio-button-div {
@@ -541,6 +542,7 @@ button {
 .gallery-close {
   display: none;
 }
+
 
 .gallery-portfolio {
   margin: 0 0.65rem;
@@ -979,8 +981,11 @@ footer {
     width: 90vw;
   }
 
+
+
   .cont {
     flex-wrap: wrap;
+
   }
 
   .cont-sub {
@@ -988,17 +993,25 @@ footer {
   }
 
   .panel {
-    display: flex;
+    display: flex wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
+    height: 100vh;
   }
   
   .left-panel {
     width: 100%;
+    height: 50%;
+  }
+
+  .title-div {
+    height: 50%;
   }
   .right-panel {
     width: 100%;
+    height: 50%;
   }
   
   

@@ -7,5 +7,9 @@
 [X] form authentycation
 [X] more photo
 [X] kontakt more responsive?
-[] diffrent social media
-[] oferta this section is broken
+[X] diffrent social media
+[X] oferta this section is broken
+[X] fizjoterapia on the mobile is broken 
+[] more photos
+[] carousel components
+[] i need good loking logo on footer at fizjoterapia
