@@ -1,5 +1,5 @@
 import React from 'react';
-
+import fizjoLogo from './images/uprawnienia/uprawnienia.pdf';
 
 function List() {
     return (
@@ -15,6 +15,10 @@ function List() {
             <li> chcesz sprawdzić swój brzuch po ciąży (rozejście mięśni prostych brzucha, blizna po CC)</li>
             <li> zaobserwujesz wadę postawy u siebie lub u dzieci</li>
           </ul>
+          <div className='entitlements'>
+            <h4> <a href={fizjoLogo}  target="_blank"> Uprawnienia i certyfikaty </a> </h4>
+          </div>
+          
       </div>
        
         </>
