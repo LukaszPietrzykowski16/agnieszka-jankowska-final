@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from './images/fizjo.PNG'
+import img1 from './images/fizjo.jpg'
 
 
 function Fizjo() {
