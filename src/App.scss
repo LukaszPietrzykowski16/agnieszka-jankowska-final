@@ -834,6 +834,23 @@ footer {
   height: 100vh;
   font-size: 3em;
   z-index: 9999;
+  background-color: $pink;
+}
+
+
+.panel-div {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 40vh;
+  border: $darkPink 1.5px solid;
+  img {
+    width: 60%;
+
+    height: 40%;
+  }
 }
 
 .left-panel {
@@ -980,6 +997,12 @@ footer {
   #about-info {
     width: 90vw;
   }
+  .panel {
+    img {
+      width: 80%;
+    }
+  }
+
 
 
 
@@ -992,14 +1015,7 @@ footer {
     text-align: center;
   }
 
-  .panel {
-    display: flex wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 
-    height: 100vh;
-  }
   
   .left-panel {
     width: 100%;
@@ -1259,8 +1275,48 @@ footer {
  
 }
 
+@media (max-width: 800px) {
+  .panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .panel-div {
+    width: 90vw;
+    height: 30vh;
+    img {
+      width: 60%;
+    }
+  }
+}
+
+
 
 @media (max-width: 500px) {
+
+  .panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    
+  }
+
+  .panel-div {
+    width: 90vw;
+    height: 20vh;
+    img {
+      height: 40%;
+      width: 80%;
+    }
+  }
+
+
   .footer-class {
     img {
       width: 60%;
