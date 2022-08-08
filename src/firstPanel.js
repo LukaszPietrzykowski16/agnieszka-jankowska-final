@@ -7,13 +7,16 @@ const firstPanel = () => {
     return <>
         <div className="panel">
        
+            <Link to="/fizjoterapia"> 
+            <div className="panel-div">
+                <img src={logo2}/>
+            </div> 
+            </Link>
+            <Link to="/fotografia"> 
             <div className="panel-div">
                 <img src={logo2}/>
             </div>
-            <div className="panel-div">
-                <img src={logo2}/>
-            </div>
-        
+            </Link>
         </div>
     
     </>
