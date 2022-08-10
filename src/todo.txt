@@ -1,4 +1,4 @@
-[] link to fizjoterapia and fotografia
+[X] link to fizjoterapia and fotografia
 [] more responsive first page
 [] portfolio website on mobile
 [] contact on fizjoterapia site adjastmants
