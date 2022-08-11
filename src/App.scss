@@ -667,7 +667,6 @@ button {
 }
 
 .carousel-img {
-  width: 50vw;
   height: 70vh;
   img {
     width: 100%;
@@ -1347,6 +1346,14 @@ footer {
 
 
 @media (max-width: 500px) {
+  .dots {
+    width: 70vw;
+  }
+  
+  .carousel {
+    width: 90vw;
+  }
+
 
   .panel {
     display: flex;
