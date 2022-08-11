@@ -647,6 +647,25 @@ button {
   height: 80vh;
 }
 
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+}
+
+.dot {
+  background-color: $pink;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dot.pink {
+  background-color: $darkPink;
+}
+
 .carousel-img {
   width: 50vw;
   height: 70vh;
@@ -655,6 +674,15 @@ button {
     height: 100%;
   }
 }
+
+.main-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 
 
 

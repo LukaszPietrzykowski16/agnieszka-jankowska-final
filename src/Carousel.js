@@ -20,7 +20,7 @@ function Carousel() {
         const interval = setInterval(() => {
             // in setInterval we must do something like this
           setIndex(index => index + 1)
-        }, 2000);
+        }, 5000);
         return () => clearInterval(interval);
       }, []);
 
@@ -32,6 +32,23 @@ function Carousel() {
     <div className="carousel">
         <div className="carousel-img">
             <img src={images[index]}/>
+        </div>
+        <div className='dots'>
+            <div className='dot pink'>
+
+            </div>
+            <div className='dot'>
+                
+            </div>
+            <div className='dot'>
+                
+            </div>
+            <div className='dot'>
+                
+            </div>
+            <div className='dot'>
+                
+            </div>
         </div>
         <div className="carousel-txt">
             {text[index]}
