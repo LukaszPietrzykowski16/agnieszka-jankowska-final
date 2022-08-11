@@ -2,7 +2,7 @@
 [X] more responsive first page
 [X] portfolio website on mobile
 [X] contact on fizjoterapia site adjastmants
-[] animations on hoover first page 
+[X] animations on hoover first page 
 [] logo more clear
-[] carousel
+[X] carousel
 [] aria labels 
