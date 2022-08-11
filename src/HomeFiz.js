@@ -3,7 +3,7 @@ import List from './List';
 import ContactFizjo from './ContactFizjo';
 import Footer from './FooterElementFizjo.js';
 import FizjoMenu from './FizjoMenu';
-
+import Carousel from './Carousel';
 
 function HomeFiz() {
   return (
@@ -11,6 +11,7 @@ function HomeFiz() {
    <FizjoMenu />
    <Fizjo />
    <List />
+   <Carousel />
    <ContactFizjo />
    <Footer />
     </>

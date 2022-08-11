@@ -1,7 +1,8 @@
 [X] link to fizjoterapia and fotografia
 [X] more responsive first page
-[] portfolio website on mobile
-[] contact on fizjoterapia site adjastmants
+[X] portfolio website on mobile
+[X] contact on fizjoterapia site adjastmants
 [] animations on hoover first page 
 [] logo more clear
 [] carousel
+[] aria labels 
