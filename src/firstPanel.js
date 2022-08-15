@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import logo1 from './images/LogoFizjo2.png';
-import logo2 from './images/logo.png';
+import logo1 from './images/test1.png';
+import logo2 from './images/test2.png';
 
 const firstPanel = () => {
     return <>
@@ -9,7 +9,7 @@ const firstPanel = () => {
        
             <Link to="/fizjoterapia"> 
             <div className="panel-div">
-                <img src={logo2}/>
+                <img src={logo1}/>
             </div> 
             </Link>
             <Link to="/fotografia"> 
