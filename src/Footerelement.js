@@ -13,7 +13,7 @@ function Footerelement() {
    <footer>
      <div className='footer-up'>
      <div className='footer-class'>
-       <img src={logo}/>
+       <img src={logo} alt="logo"/>
      </div>
      <div className='footer-class-svg'>
        <p className='social-footer'> <a href='https://www.facebook.com/Jankowska.A.Fotografia'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  <a href='https://www.instagram.com/jankowska_agnieszka_fotografia/'> <FontAwesomeIcon icon={ faInstagram } /> </a> </p>

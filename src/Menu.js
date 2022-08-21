@@ -54,14 +54,14 @@ function Menu() {
         <>
          <div className='navigation'>
         <div className='logo'>
-        <Link to="/"><img src={logo}/></Link>
+        <Link to="/" aria-label="Wróć na stronę główną"><img src={logo} alt="logo"/></Link>
         </div>
         <div className='navigation-desktop'>
-          <div className='sub-nav'><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
-          <div className='sub-nav'><Link to="/gallery"> PORTFOLIO </Link> </div>
-          <div className='sub-nav'><Link to="/oferta"> OFERTA </Link> </div>
-          <div className='sub-nav'><Link to="/kontakt"> KONTAKT </Link> </div>
-          <div className='sub-nav'><Link to="/o-mnie"> O MNIE </Link> </div>
+          <div className='sub-nav'><Link to="/fotografia"  aria-label="Stronę główną"> STRONA GŁÓWNA </Link> </div>
+          <div className='sub-nav'><Link to="/gallery" aria-label="Portfolio"> PORTFOLIO </Link> </div>
+          <div className='sub-nav'><Link to="/oferta" aria-label="Oferta"> OFERTA </Link> </div>
+          <div className='sub-nav'><Link to="/kontakt" aria-label="Kontakt"> KONTAKT </Link> </div>
+          <div className='sub-nav'><Link to="/o-mnie" aria-label="O mnie"> O MNIE </Link> </div>
         </div>
 
      
