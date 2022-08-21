@@ -16,7 +16,7 @@ function List() {
             <li> zaobserwujesz wadę postawy u siebie lub u dzieci</li>
           </ul>
           <div className='entitlements'>
-            <h4> <a href={fizjoLogo}  target="_blank"> Uprawnienia i certyfikaty </a> </h4>
+            <button> <a href={fizjoLogo}  target="_blank"> Uprawnienia i certyfikaty </a> </button>
           </div>
           
       </div>

@@ -5,7 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
-import logo from './images/LogoFizjo2.png'
+import logo from './images/logofizjoterapia.png'
 
 function FooterelementFizjo() {
    return (

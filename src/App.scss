@@ -386,7 +386,6 @@ button {
   background: none;
   border: 0;
   box-sizing: border-box;
-  margin: 1em;
   padding: 1em 2em;
   background-color: $pink;
   position: relative;
@@ -415,6 +414,12 @@ button {
 
 .porfolio-button-div {
   @include threeMagicLines();
+}
+
+.entitlements{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
 .center {
