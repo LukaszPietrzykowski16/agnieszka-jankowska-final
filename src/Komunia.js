@@ -23,8 +23,6 @@ import img17 from './images/portfolio/komunia/img17.jpg';
 import img18 from './images/portfolio/komunia/img18.jpg';
 import img19 from './images/portfolio/komunia/img19.jpg';
 import img20 from './images/portfolio/komunia/img20.jpg';
-import img21 from './images/portfolio/komunia/img21.jpg';
-import img22 from './images/portfolio/komunia/img22.jpg';
 import Footerelement from './Footerelement';
 
 
@@ -78,15 +76,8 @@ const Komunia = () => {
         },
         {id: 20,
             imageUrl: img20 
-        },
-        {id: 21,
-            imageUrl: img21},
-        {id: 22,
-            imageUrl: img22},
-
-        
-        
-            
+        }
+      
     ]
 
     const [lightbox, setLightbox] = useState(false);

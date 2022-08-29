@@ -1,8 +1,3 @@
-[] aria labels and h
-[] lazy loading (?)
-[] kontakt page make better
-[] fizjo 
-    [X] logo
-    [] better photos
-    [] better uprawienia i certyfikaty
-    [] paddings and margins
+[] kontakt component more clear
+[] navigation make with lists for accesibility
+[] maybye phone and contact on first page? 

@@ -7,9 +7,7 @@ import img4 from './images/portfolio/7.webp';
 import img5 from './images/portfolio/chrzest plener.webp';
 import img6 from './images/portfolio/13.webp';
 import img7 from './images/portfolio/3.webp';
-import img8 from './images/portfolio/sesje rodzinne.webp';
-import img9 from './images/portfolio/komunia.webp';
-import img10 from './images/portfolio/komunia.webp';
+import img8 from './images/portfolio/sesje rodzinne.webp'
 import img11 from './images/portfolio/1.webp';
 
 import  gsap from 'gsap';

@@ -268,8 +268,8 @@ a:visited {
 .about-section {
   @include threeMagicLines();
   width: 70vw;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .about-photo {
@@ -1435,8 +1435,8 @@ footer {
   .about-section {
     @include fourMagicLines();
     width: 90vw;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     position: relative;
     
   }
