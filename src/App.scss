@@ -817,7 +817,10 @@ button {
   }
 }
 
-.contact-phone {
+.contact-phone, .contact-email {
+
+  width: 100%;
+  height: 50%;
   padding-top: 4vh;
 }
 
@@ -833,7 +836,7 @@ button {
   margin-bottom: 10vh;
   width: 70vw;
   height: 30vh;
-  font-size: 3em;
+  font-size: 2.2em;
 }
 
 footer {
@@ -1040,6 +1043,7 @@ footer {
 }
 
 .navigation-desktop {
+  list-style: none;
   @include threeMagicLines();
 }
 
@@ -1354,6 +1358,13 @@ footer {
 
 
 @media (max-width: 500px) {
+  .contact {
+    h3 {
+      font-size: 3em;
+    }
+  }
+
+
   .dots {
     width: 70vw;
   }
@@ -1503,5 +1514,14 @@ footer {
     width: 90vw;
     height: 40vh;
     font-size: 1.2em;
+  }
+}
+@media (max-width: 340px) { 
+  .contact-subsection {
+    font-size: 0.9em;
+  }
+
+  .container-text {
+    font-size: 1.4em;
   }
 }
