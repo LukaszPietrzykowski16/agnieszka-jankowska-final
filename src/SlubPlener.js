@@ -76,11 +76,25 @@ const Reportaz = () => {
 
   return (
     <>
+
+        <div className={lightbox ? "gallery-open": "gallery-close"}  >
+            <img src={image[index]}/>
+            <div className='exit' onClick={() => hideGallery(lightbox)}> <FontAwesomeIcon icon={ faTimesCircle }/> </div>
+            <div className='left-arrow' onClick={() =>  leftSlide(index)} >  <FontAwesomeIcon icon={ faArrowLeft }/> </div>
+            <div className='right-arrow' onClick={() => rightSlide(index)}>  <FontAwesomeIcon icon={ faArrowRight  }/> </div>
+        </div>
+
       <Menu />
+      <div className='gallery-portfolio'>
       {image.map((url) => {
-        return <img src={url}/>;
+        return (
+            <div className={"pic"} onClick={() => showGallery(image.length)}>
+            <img src={url}/>
+            </div>
+        );
       })}
-        <Footerelement />
+      </div>
+      <Footerelement />
     </>
   );
     
