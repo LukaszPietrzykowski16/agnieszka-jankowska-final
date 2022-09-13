@@ -33,9 +33,7 @@ function Carousel() {
         <div className="carousel-img">
             <img src={images[index]}/>
         </div>
-        <div className="carousel-txt">
-            {text[index]}
-        </div>
+
 
         <div className='dots'>
             <div className={index === 0 ? 'dot pink' : 'dot'} onClick={() => setIndex(0)}>
