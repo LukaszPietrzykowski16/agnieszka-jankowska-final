@@ -15,18 +15,30 @@ import { projectStorage, projectFirestore } from "./config";
 
 const Reportaz = () => {
     const [image, setImageUrls] = useState([]);
+    const [ready, setReady] = useState(false)
 
+    // fetching data from storage in firebase
     const imagesListRef = ref(projectStorage, "plenerowe_sesje_slubne/");
     useEffect(() => {
-        listAll(imagesListRef).then((response) => {
-        response.items.forEach((item) => {
-            getDownloadURL(item).then((url) => {
-            setImageUrls((prev) => [...prev, url]);
-            });
+      try {
+        listAll(imagesListRef)
+        .then((response) => {response.items.forEach((item) => {getDownloadURL(item)
+        .then((url) => {setImageUrls((prev) => [...prev, url]);
         });
         });
+        });
+      } catch {
+        console.log('error')
+      }
+     
     }, []);
-
+    // it should be after fetching data, but data is fetched quite fast by displaying images isn't, that's why i'm using setTimeout for this time i will patch this after some tests i just wanted to make it work
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setReady(true)
+      }, 2000);
+      return () => clearTimeout(timer);
+    }, []);
     const [lightbox, setLightbox] = useState(false);
     
     const showGallery = (index) => {
@@ -72,6 +84,18 @@ const Reportaz = () => {
       }, [handleKeyPress]);
 
 
+      const Galleria = () => {
+        return (
+          image.map((url) => {
+            return (
+                <div className={"pic"} onClick={() => showGallery(image.length)}>
+                <img src={url}/>
+                </div>
+            );
+          })
+        )
+        
+      }
 
 
   return (
@@ -86,13 +110,8 @@ const Reportaz = () => {
 
       <Menu />
       <div className='gallery-portfolio'>
-      {image.map((url) => {
-        return (
-            <div className={"pic"} onClick={() => showGallery(image.length)}>
-            <img src={url}/>
-            </div>
-        );
-      })}
+      {ready === true ? Galleria() : <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>}
+      
       </div>
       <Footerelement />
     </>
