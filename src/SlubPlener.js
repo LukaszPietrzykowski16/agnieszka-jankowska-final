@@ -11,7 +11,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { projectStorage, projectFirestore } from "./config";
+import { projectStorage} from "./config";
 
 const Reportaz = () => {
     const [image, setImageUrls] = useState([]);
