@@ -69,16 +69,16 @@ function Navigation() {
             <Route path="/oferta" element={<Oferta />} />
             <Route path="/kontakt" element={<Kontakt />} />
             <Route path="/o-mnie" element={<Omnie />} />
-            <Route path="/reportaz-slubny" element={<Reportaz />} />
+            <Route path="/reportaz-slubny" element={<SlubPlener />} />
             <Route path="/slub-plener" element={<SlubPlener />} />
-            <Route path="/chrzest-reportaz" element={<ChrzestReportaz />} />
-            <Route path="/chrzest-plener" element={<ChrzestPlener />} />
-            <Route path="/imprezy-okolicznosciowe" element={<Imprezy />} />
-            <Route path="/ciazowe" element={<Ciazowe />} />
-            <Route path="/komunia" element={<Komunia />} />
-            <Route path="/osiemnastki" element={<Osiemnastki />} />
-            <Route path="/sesja-portretowa" element={<Portretowe />} />
-            <Route path="/rodzinne" element={<Rodzinne />} />
+            <Route path="/chrzest-reportaz" element={<SlubPlener />} />
+            <Route path="/chrzest-plener" element={<SlubPlener />} />
+            <Route path="/imprezy-okolicznosciowe" element={<SlubPlener />} />
+            <Route path="/ciazowe" element={<SlubPlener />} />
+            <Route path="/komunia" element={<SlubPlener />} />
+            <Route path="/osiemnastki" element={<SlubPlener />} />
+            <Route path="/sesja-portretowa" element={<SlubPlener />} />
+            <Route path="/rodzinne" element={<SlubPlener />} />
         </Routes>
     
     </Router>

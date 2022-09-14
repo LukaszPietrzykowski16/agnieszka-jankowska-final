@@ -18,8 +18,11 @@ const Reportaz = () => {
     const [ready, setReady] = useState(false)
     const [index, setIndex] = useState(0)
 
+    const pathname = window.location.pathname
+    console.log(pathname)
+   
     // fetching data from storage in firebase
-    const imagesListRef = ref(projectStorage, "plenerowe_sesje_slubne/");
+    const imagesListRef = ref(projectStorage, `${pathname}`);
     useEffect(() => {
       try {
         listAll(imagesListRef)
@@ -28,6 +31,7 @@ const Reportaz = () => {
         });
         });
         });
+        
       } catch {
         console.log('error')
       }
