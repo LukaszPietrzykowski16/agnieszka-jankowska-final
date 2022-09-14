@@ -13,7 +13,7 @@ import img11 from './images/portfolio/1.webp';
 import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Reportaz from './Reportaz';
+
 import Menu from './Menu';
 import Footerelement from './Footerelement';
 
