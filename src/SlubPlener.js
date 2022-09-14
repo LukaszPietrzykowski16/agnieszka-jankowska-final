@@ -16,6 +16,7 @@ import { projectStorage, projectFirestore } from "./config";
 const Reportaz = () => {
     const [image, setImageUrls] = useState([]);
     const [ready, setReady] = useState(false)
+    const [index, setIndex] = useState(0)
 
     // fetching data from storage in firebase
     const imagesListRef = ref(projectStorage, "plenerowe_sesje_slubne/");
@@ -41,14 +42,18 @@ const Reportaz = () => {
     }, []);
     const [lightbox, setLightbox] = useState(false);
     
-    const showGallery = (index) => {
-        setValue(index)
-        console.log(index)
-        setLightbox(true)
+    const showGallery = (url) => {
+      image.some(exactImage => {
+        if (exactImage === url) {
+          setIndex(image.indexOf(exactImage))
+        }
+        else {
+          return;
+        }
+      });
+      setLightbox(true)
+        
     }
-    
-    let [index, setValue] = useState(0);
-    
     
     const hideGallery = (lightbox) => {
         setLightbox(false)
@@ -58,14 +63,14 @@ const Reportaz = () => {
         if (index === 0) {
             index = image.length;
           }
-          setValue(index - 1)  
+          setIndex(index - 1)  
     }
 
     const rightSlide = (index) => {
         if (index === image.length) {
             index = -1;
           }
-          setValue(index + 1)  
+          setIndex(index + 1)  
     }
 
     const handleKeyPress = useCallback((event) => {
@@ -88,7 +93,7 @@ const Reportaz = () => {
         return (
           image.map((url) => {
             return (
-                <div className={"pic"} onClick={() => showGallery(image.length)}>
+                <div className={"pic"}  onClick={() => showGallery(url)}>
                 <img src={url}/>
                 </div>
             );
