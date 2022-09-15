@@ -1,3 +1,6 @@
-[X] kontakt component more clear
-[] navigation make with lists for accesibility
-[] maybye phone and contact on first page? 
+[] loading state on mobile in the center
+[] 'zobacz portfolio' button make it link 
+[] form to aga
+[] margin and paddings
+[] make more responsive fizjo 
+[] zarejstruj sie button more responsive

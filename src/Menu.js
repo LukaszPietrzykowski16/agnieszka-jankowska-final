@@ -24,7 +24,7 @@ function Menu() {
     
     return (
         <>
-         <div className='navigation'>
+         <nav className='navigation'>
         <div className='logo'>
         <Link to="/" aria-label="Wróć na stronę główną"><img src={logo} alt="logo"/></Link>
         </div>
@@ -41,8 +41,8 @@ function Menu() {
             <FontAwesomeIcon icon={ menu ?  faXmarkCircle  : faBars} />
           </div>
          
-          </div>
-          <div className='box'>
+          </nav>
+          <nav className='box'>
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
@@ -53,7 +53,7 @@ function Menu() {
             </div>
         </div>
         
-        </div>
+        </nav>
         </>
     )
 }
