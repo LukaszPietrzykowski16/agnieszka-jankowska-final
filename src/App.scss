@@ -958,17 +958,22 @@ footer {
   
 }
 
+.bo{
+  font-weight: bold;
+}
+
 #about-info {
   @include fourMagicLines();
-  font-size: 1.5em;
+  font-size: 1.2em;
   width: 60vw;
  ul {
   list-style: none;
+  padding-left: 5px;
   }
   li::before {
-    content: "•"; /* Insert content that looks like bullets */
-    padding-right: 8px;
-    color: $darkPink; /* Or a color you prefer */
+    content: "•"; 
+
+    color: $darkPink; 
   }
 }
 
@@ -1065,7 +1070,7 @@ footer {
 
 
   #about-info {
-    width: 90vw;
+    width: 80vw;
   }
   .panel {
     img {

@@ -12,7 +12,7 @@ function Fizjo() {
       <div className='about-text'>
           <h1> Cześć! </h1>
           <p> Jestem fizjoterapeutą czyli kim?  Najbardziej podoba mi się określenie, że osobą pomagającą powrócić do sprawności. Ale nie tylko tym się zajmuję - również szeroko pojętą profilaktyką oraz propagowaniem zdrowego stylu życia. W swojej pracy wykorzystuje ćwiczenia oraz masaż. Głównie pracuje swoimi dłońmi, ale również używam innych przyrządów np. baniek czy aplikatora wieloigłowego (lub po prostu wałeczka z igłami) </p>
-          <h3> Zajmuję się również fotografią </h3>
+          <p className='bo'> Zajmuję się również fotografią </p>
           <button> <a href='/fotografia'> Sprawdź! </a>  </button>
       </div>
         </div>

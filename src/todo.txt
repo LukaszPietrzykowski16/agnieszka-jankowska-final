@@ -2,5 +2,5 @@
 [X] 'zobacz portfolio' button make it link 
 [] form to aga
 [] margin and paddings
-[] make more responsive fizjo 
+[X] make more responsive fizjo 
 [X] zarejstruj sie button more responsive
