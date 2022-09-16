@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router,  Link } from 'react-router-dom';
-import img2 from './images/portfolio/IMG_6122.webp';
-import img3 from './images/portfolio/IMG_2887.webp';
-import img4 from './images/portfolio/7.webp';
-import img5 from './images/portfolio/1.webp';
-import img6 from './images/portfolio/3.webp';
-import img7 from './images/portfolio/sesje portretowe.webp';
-import img8 from './images/portfolio/sesje rodzinne.webp';
-import img9 from './images/portfolio/komunia.webp';
-import img10 from './images/portfolio/chrzest plener.webp';
+import img2 from '../images/portfolio/IMG_6122.webp';
+import img3 from '../images/portfolio/IMG_2887.webp';
+import img4 from '../images/portfolio/7.webp';
+import img5 from '../images/portfolio/1.webp';
+import img6 from '../images/portfolio/3.webp';
+import img7 from '../images/portfolio/sesje portretowe.webp';
+import img8 from '../images/portfolio/sesje rodzinne.webp';
+import img9 from '../images/portfolio/komunia.webp';
+import img10 from '../images/portfolio/chrzest plener.webp';
 
 function Portfolio() {
   return (

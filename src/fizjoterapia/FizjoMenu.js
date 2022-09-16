@@ -1,9 +1,9 @@
 import React, {useEffect, useState, useRef} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.scss';
+import '../Navigation';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from './images/LogoFizjo.png';
+import logo from '../images/LogoFizjo.png';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons'

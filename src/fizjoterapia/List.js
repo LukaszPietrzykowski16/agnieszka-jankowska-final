@@ -1,5 +1,5 @@
 import React from 'react';
-import fizjoLogo from './images/uprawnienia/uprawnienia.pdf';
+import fizjoLogo from '../images/uprawnienia/uprawnienia.pdf';
 
 function List() {
     return (

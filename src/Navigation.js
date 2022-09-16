@@ -2,9 +2,9 @@ import React, {useEffect, useState, useRef} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.scss';
 import Home from './Home';
-import Reportaz from './SlubPlener';
-import Omnie from './OMnie';
-import Footerelement from './Footerelement';
+import Reportaz from './fotografia/SlubPlener';
+import Omnie from './fotografia/OMnie';
+import Footerelement from './fotografia/Footerelement';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from './images/logo.png';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -12,13 +12,13 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';
 import gsap from 'gsap';
 import {Power4} from 'gsap';
-import SlubPlener from './SlubPlener';
+import SlubPlener from './fotografia/SlubPlener';
 import ScrollToTop from './ScrollToTop';
 import Panel from './firstPanel'
-import HomeFiz from './HomeFiz';
-import Gallery from './Galeria';
-import Oferta from './Oferta';
-import Kontakt from './Kontakt';
+import HomeFiz from './fizjoterapia/HomeFiz';
+import Gallery from './fotografia/Galeria';
+import Oferta from './fotografia/Oferta';
+import Kontakt from './fotografia/Kontakt';
 
 function Navigation() {
   

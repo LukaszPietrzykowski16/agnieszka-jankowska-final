@@ -1,8 +1,8 @@
 import React, { useEffect} from 'react';
-import img1 from './images/IMG_9425a.webp';
+import img1 from '../images/IMG_9425a.webp';
 import  gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import './App.scss';
+import '../App.scss';
 
 
 

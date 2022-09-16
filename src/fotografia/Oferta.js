@@ -1,34 +1,13 @@
 import React, {useEffect} from 'react';
-import img1 from './images/portfolio/offer/img1.webp';
-import img2 from './images/portfolio/offer/img2.webp';
-import img3 from './images/portfolio/offer/img3.webp';
-import img4 from './images/portfolio/offer/img4.webp';
-import img5 from './images/portfolio/offer/img5.webp';
-import img6 from './images/portfolio/offer/img6.webp';
-import  gsap  from 'gsap';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Menu from './Menu';
+import img1 from '../images/portfolio/offer/img1.webp';
+import img2 from '../images/portfolio/offer/img2.webp';
+import img4 from '../images/portfolio/offer/img4.webp';
+import Menu from '../Menu';
 import Footerelement from './Footerelement';
 
 
 export default function Oferta() {
-    /*
-    gsap.registerPlugin(ScrollTrigger);
- 
-
-    useEffect(() => {   
-    gsap.from('.photo-oferta', {scrollTrigger: {
-      trigger: '.photo-oferta',
-      toggleActions: 'restart pause restart pause'},
-      y: 80,
-      opacity: 0,
-      duration: 1.5
-    })
-          
-  }, [])
-  */
-
-
+   
   return (<>
   <Menu />
 

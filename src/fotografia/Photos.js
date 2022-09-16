@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './images/IMG_9425a.jpg';
+import image from '../images/IMG_9425a.jpg';
 function Photos() {
   return (
       <>
