@@ -1,6 +1,6 @@
 [X] loading state on mobile in the center
-[] 'zobacz portfolio' button make it link 
+[X] 'zobacz portfolio' button make it link 
 [] form to aga
 [] margin and paddings
 [] make more responsive fizjo 
-[] zarejstruj sie button more responsive
+[X] zarejstruj sie button more responsive

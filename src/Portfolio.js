@@ -28,7 +28,7 @@ function Portfolio() {
        
            
         <div className='porfolio-button-div'>
-        <button className='center' aria-label='Zobacz portfolio'> Zobacz portfolio </button>
+        <Link to="/portfolio" > <button className='center' aria-label='Zobacz portfolio'>  Zobacz portfolio </button></Link> 
         </div>
   
         </>

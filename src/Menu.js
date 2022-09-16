@@ -30,7 +30,7 @@ function Menu() {
         </div>
         <ul className='navigation-desktop'>
           <li className='sub-nav'><Link to="/fotografia"  aria-label="Stronę główną"> STRONA GŁÓWNA </Link> </li>
-          <li className='sub-nav'><Link to="/gallery" aria-label="Portfolio"> PORTFOLIO </Link> </li>
+          <li className='sub-nav'><Link to="/portfolio" aria-label="Portfolio"> PORTFOLIO </Link> </li>
           <li className='sub-nav'><Link to="/oferta" aria-label="Oferta"> OFERTA </Link> </li>
           <li className='sub-nav'><Link to="/kontakt" aria-label="Kontakt"> KONTAKT </Link> </li>
           <li className='sub-nav'><Link to="/o-mnie" aria-label="O mnie"> O MNIE </Link> </li>
@@ -46,7 +46,7 @@ function Menu() {
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/fotografia"> STRONA GŁÓWNA </Link> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/gallery"> PORTFOLIO </Link> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/portfolio"> PORTFOLIO </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/oferta"> OFERTA </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/kontakt"> KONTAKT </Link> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}><Link to="/o-mnie"> O MNIE </Link> </div>

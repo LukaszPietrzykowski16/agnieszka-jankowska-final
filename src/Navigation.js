@@ -49,7 +49,7 @@ function Navigation() {
             <Route path="/" element={<Panel />} />
             <Route path="/fotografia" element={<Home />} />
             <Route path="/fizjoterapia" element={<HomeFiz />} />
-            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/portfolio" element={<Gallery />} />
             <Route path="/oferta" element={<Oferta />} />
             <Route path="/kontakt" element={<Kontakt />} />
             <Route path="/o-mnie" element={<Omnie />} />
