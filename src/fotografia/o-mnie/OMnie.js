@@ -1,7 +1,7 @@
 import React from 'react';
-import Footerelement from './Footerelement';
-import img1 from '../images/IMG_9425a.webp';
-import Menu from '../Menu';
+import Footerelement from '../Footerelement';
+import img1 from '../../images/IMG_9425a.webp';
+import Menu from '../../Menu';
 
 function OMnie() {
   return (

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback}  from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../App.scss';
-import Menu from '../Menu';
+import '../../../App.scss';
+import Menu from '../../../Menu';
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import Footerelement from './Footerelement';
+import Footerelement from '../../Footerelement';
 import {
   ref,
   uploadBytes,
@@ -11,7 +11,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { projectStorage} from "../config";
+import { projectStorage} from "../../../config";
 
 const Reportaz = () => {
     const [image, setImageUrls] = useState([]);

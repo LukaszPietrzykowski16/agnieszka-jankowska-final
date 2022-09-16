@@ -1,21 +1,21 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import img1 from '../images/portfolio/sesje portretowe.webp';
-import img2 from '../images/portfolio/IMG_6122.webp';
-import img3 from '../images/portfolio/IMG_2887.webp';
-import img4 from '../images/portfolio/7.webp';
-import img5 from '../images/portfolio/chrzest plener.webp';
-import img6 from '../images/portfolio/13.webp';
-import img7 from '../images/portfolio/3.webp';
-import img8 from '../images/portfolio/sesje rodzinne.webp'
-import img11 from '../images/portfolio/1.webp';
+import img1 from '../../images/portfolio/sesje portretowe.webp';
+import img2 from '../../images/portfolio/IMG_6122.webp';
+import img3 from '../../images/portfolio/IMG_2887.webp';
+import img4 from '../../images/portfolio/7.webp';
+import img5 from '../../images/portfolio/chrzest plener.webp';
+import img6 from '../../images/portfolio/13.webp';
+import img7 from '../../images/portfolio/3.webp';
+import img8 from '../../images/portfolio/sesje rodzinne.webp'
+import img11 from '../../images/portfolio/1.webp';
 
 import  gsap from 'gsap';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import Menu from '../Menu';
-import Footerelement from './Footerelement';
+import Menu from '../../Menu';
+import Footerelement from '../Footerelement';
 
 export default function Galeria() {
   gsap.registerPlugin(ScrollTrigger);

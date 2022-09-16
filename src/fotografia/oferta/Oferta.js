@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import img1 from '../images/portfolio/offer/img1.webp';
-import img2 from '../images/portfolio/offer/img2.webp';
-import img4 from '../images/portfolio/offer/img4.webp';
-import Menu from '../Menu';
-import Footerelement from './Footerelement';
+import img1 from '../../images/portfolio/offer/img1.webp';
+import img2 from '../../images/portfolio/offer/img2.webp';
+import img4 from '../../images/portfolio/offer/img4.webp';
+import Menu from '../../Menu';
+import Footerelement from '../Footerelement';
 
 
 export default function Oferta() {

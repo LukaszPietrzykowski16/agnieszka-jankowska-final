@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import emailjs from '@emailjs/browser';
-import Menu from '../Menu';
-import Footerelement from './Footerelement';
+import Menu from '../../Menu';
+import Footerelement from '../Footerelement';
 function Kontakt() {
  
   const form = useRef();
