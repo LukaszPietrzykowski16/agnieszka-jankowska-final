@@ -1,4 +1,4 @@
-[] loading state on mobile in the center
+[X] loading state on mobile in the center
 [] 'zobacz portfolio' button make it link 
 [] form to aga
 [] margin and paddings

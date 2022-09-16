@@ -17,10 +17,7 @@ const Reportaz = () => {
     const [image, setImageUrls] = useState([]);
     const [ready, setReady] = useState(false)
     const [index, setIndex] = useState(0)
-
     const pathname = window.location.pathname
-    console.log(pathname)
-   
     // fetching data from storage in firebase
     const imagesListRef = ref(projectStorage, `${pathname}`);
     useEffect(() => {
@@ -98,7 +95,7 @@ const Reportaz = () => {
           image.map((url) => {
             return (
                 <div className={"pic"}  onClick={() => showGallery(url)}>
-                <img src={url}/>
+                <img src={url} alt="Zdjęcie autorstwa Agnieszki Jankowskiej"/>
                 </div>
             );
           })
@@ -119,7 +116,7 @@ const Reportaz = () => {
 
       <Menu />
       <div className='gallery-portfolio'>
-      {ready === true ? Galleria() : <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>}
+      {ready === true ? Galleria() : <div className='roller-conatiner'>  <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> </div>}
       
       </div>
       <Footerelement />

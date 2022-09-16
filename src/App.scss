@@ -1058,6 +1058,12 @@ footer {
 }
 
 @media (max-width: 1060px) {
+  .roller-conatiner {
+    height: 80vh;
+  }
+
+
+
   #about-info {
     width: 90vw;
   }
@@ -1342,6 +1348,12 @@ footer {
  
 }
 
+.roller-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lds-roller {
   display: inline-block;
   position: relative;
@@ -1356,6 +1368,7 @@ footer {
   content: " ";
   display: block;
   position: absolute;
+  width: 100vw;
   width: 7px;
   height: 7px;
   border-radius: 50%;
