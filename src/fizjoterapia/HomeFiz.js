@@ -4,6 +4,7 @@ import ContactFizjo from './ContactFizjo';
 import Footer from './FooterElementFizjo.js';
 import FizjoMenu from './FizjoMenu';
 import Carousel from './Carousel';
+import Cert from './Cert';
 
 function HomeFiz() {
   return (
@@ -12,6 +13,7 @@ function HomeFiz() {
    <Fizjo />
    <List />
    <Carousel />
+   <Cert />
    <ContactFizjo />
    <Footer />
     </>

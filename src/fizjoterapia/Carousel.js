@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react';
-import img1 from '../images/Fizjoterapia-5.jpg';
-import img2 from '../images/Fizjoterapia-8.jpg';
-import img3 from '../images/Fizjoterapia-9.jpg';
-import img4 from '../images/Fizjoterapia-16.jpg';
-import img5 from '../images/Fizjoterapia-20.jpg';
+import img0 from '../images/uprawnienia/img0.jpg';
+import img1 from '../images/uprawnienia/img1.jpg';
+import img2 from '../images/uprawnienia/img2.jpg';
+import img3 from '../images/uprawnienia/img3.jpg';
+import img4 from '../images/uprawnienia/img4.jpg';
+import img5 from '../images/uprawnienia/img5.jpg';
+import img6 from '../images/uprawnienia/img6.jpg';
 
 
 // there will be carousel element
 function Carousel() {
-    const [images, setImages] = useState([img1, img2, img3, img4, img5])
+    const [images, setImages] = useState([img0, img1, img2, img3, img4, img5, img6])
     const [index, setIndex] = useState(0)
    
     if (index === images.length) {
@@ -48,6 +50,12 @@ function Carousel() {
                 
             </div>
             <div className={index === 4 ? 'dot pink' : 'dot'} onClick={() => setIndex(4)}>
+                
+            </div>
+            <div className={index === 5 ? 'dot pink' : 'dot'} onClick={() => setIndex(5)}>
+                
+            </div>
+            <div className={index === 6 ? 'dot pink' : 'dot'} onClick={() => setIndex(6)}>
                 
             </div>
         </div>
