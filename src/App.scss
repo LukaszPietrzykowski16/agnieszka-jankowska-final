@@ -672,7 +672,30 @@ button {
   padding-top: 20px;
   width: 60vw;
   height: 80vh;
+  padding-bottom: 40px;
 }
+
+.bar {
+  background: $pink;
+  display: flex;
+  height: 10px;
+  margin-bottom: 10px;
+  width: 80vw;
+
+  position: relative;
+  span {
+    display: block;
+    height: 100%;
+    background-color: $darkPink;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    height: 10px;
+    transition: width 0.2s ease-out;
+  }
+}
+
+
 
 .dots {
   display: flex;
@@ -694,7 +717,7 @@ button {
 }
 
 .carousel-img {
-  height: 70vh;
+  height: 80vh;
   img {
     width: 100%;
     height: 100%;
@@ -1088,7 +1111,13 @@ footer {
     height: 80vh;
   }
 
-  
+  .carousel-img {
+   
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 
   #about-info {
     width: 80vw;

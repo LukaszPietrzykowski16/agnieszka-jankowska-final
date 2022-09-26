@@ -13,22 +13,31 @@ function Carousel() {
     const [images, setImages] = useState([img0, img1, img2, img3, img4, img5, img6])
     const [index, setIndex] = useState(0)
     const [number, setNumber] = useState(7000)
+    const [value, setValue] = useState(10)
    
     if (index === images.length) {
         setIndex(0)
     }
 
-   
     useEffect(() => {
         const interval = setInterval(() => {
-                // in setInterval we must do something like this
+        
+        // in setInterval we must do something like this
         setIndex(index => index + 1)
+        setValue(0)
         }, number);
             return () => clearInterval(interval);
           }, []);
   
    
-
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setValue(value => value + 1);
+        }, 70);
+        return () => {
+            clearInterval(interval);
+        };
+          });
 
     return (
     <>
@@ -39,7 +48,11 @@ function Carousel() {
         <div className="carousel-img">
             <img src={images[index]}/>
         </div>
-
+        <div className="carousel-bar">
+            <div className='bar' >
+                <span style={{width:`${value}%`}}> </span>
+            </div>
+        </div>
 
         <div className='dots'>
             <div className={index === 0 ? 'dot pink' : 'dot'} onClick={() => setIndex(0)}>
