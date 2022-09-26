@@ -644,6 +644,25 @@ button {
   opacity: 0;
 }
 
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img{
+  width: 40vw;
+
+  img {
+    width: 70%;
+  }
+ 
+}
+
+.card-txt{
+  width: 40vw;
+}
+
 .carousel {
   display: flex;
   flex-direction: column;
@@ -1068,7 +1087,7 @@ footer {
     height: 80vh;
   }
 
-
+  
 
   #about-info {
     width: 80vw;
@@ -1350,7 +1369,31 @@ footer {
   .sub-portfolio {
     width: 40vw;
   }
+ 
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+  }
+  
+  .card-img{
+    width: 80vw;
 
+    img {
+      width: 100%;
+    }
+   
+  }
+
+  .card-txt {
+    width: 80vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
  
 }
 

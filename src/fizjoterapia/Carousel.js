@@ -12,18 +12,23 @@ import img6 from '../images/uprawnienia/img6.jpg';
 function Carousel() {
     const [images, setImages] = useState([img0, img1, img2, img3, img4, img5, img6])
     const [index, setIndex] = useState(0)
+    const [number, setNumber] = useState(7000)
    
     if (index === images.length) {
         setIndex(0)
     }
 
+   
     useEffect(() => {
         const interval = setInterval(() => {
-            // in setInterval we must do something like this
-          setIndex(index => index + 1)
-        }, 7000);
-        return () => clearInterval(interval);
-      }, []);
+                // in setInterval we must do something like this
+        setIndex(index => index + 1)
+        }, number);
+            return () => clearInterval(interval);
+          }, []);
+  
+   
+
 
     return (
     <>

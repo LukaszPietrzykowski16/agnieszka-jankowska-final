@@ -12,8 +12,8 @@ function HomeFiz() {
    <FizjoMenu />
    <Fizjo />
    <List />
-   <Carousel />
    <Cert />
+   <Carousel />
    <ContactFizjo />
    <Footer />
     </>
