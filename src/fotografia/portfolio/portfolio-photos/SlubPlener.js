@@ -18,6 +18,8 @@ const Reportaz = () => {
     const [ready, setReady] = useState(false)
     const [index, setIndex] = useState(0)
     const pathname = window.location.pathname
+
+    console.log(image)
     // fetching data from storage in firebase
     const imagesListRef = ref(projectStorage, `${pathname}`);
     useEffect(() => {
@@ -91,6 +93,7 @@ const Reportaz = () => {
 
 
       const Galleria = () => {
+        image.sort();
         return (
           image.map((url) => {
             return (
