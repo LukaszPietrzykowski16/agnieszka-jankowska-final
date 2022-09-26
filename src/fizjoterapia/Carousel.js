@@ -12,8 +12,8 @@ import img6 from '../images/uprawnienia/img6.jpg';
 function Carousel() {
     const [images, setImages] = useState([img0, img1, img2, img3, img4, img5, img6])
     const [index, setIndex] = useState(0)
-    const [number, setNumber] = useState(7000)
-    const [value, setValue] = useState(10)
+    const [value, setValue] = useState(0)
+    const [stop, setStop] = useState(false)
    
     if (index === images.length) {
         setIndex(0)
@@ -21,11 +21,14 @@ function Carousel() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-        
+        if (stop === true){
+           clearInterval(interval)
+        }
         // in setInterval we must do something like this
         setIndex(index => index + 1)
         setValue(0)
-        }, number);
+       
+        }, 7000);
             return () => clearInterval(interval);
           }, []);
   
@@ -33,11 +36,18 @@ function Carousel() {
     useEffect(() => {
         const interval = setInterval(() => {
             setValue(value => value + 1);
-        }, 70);
+        }, 66);
         return () => {
             clearInterval(interval);
         };
           });
+
+    function check(number){
+        setStop(true)
+        setIndex(number)
+        setValue(0)
+    }
+
 
     return (
     <>
@@ -55,25 +65,25 @@ function Carousel() {
         </div>
 
         <div className='dots'>
-            <div className={index === 0 ? 'dot pink' : 'dot'} onClick={() => setIndex(0)}>
+            <div className={index === 0 ? 'dot pink' : 'dot'} onClick={() => check(0)}>
 
             </div>
-            <div className={index === 1 ? 'dot pink' : 'dot'} onClick={() => setIndex(1)}>
+            <div className={index === 1 ? 'dot pink' : 'dot'} onClick={() => check(1)}>
                 
             </div>
-            <div className={index === 2 ? 'dot pink' : 'dot'} onClick={() => setIndex(2)}>
+            <div className={index === 2 ? 'dot pink' : 'dot'} onClick={() => check(2)}>
                 
             </div>
-            <div className={index === 3 ? 'dot pink' : 'dot'} onClick={() => setIndex(3)}>
+            <div className={index === 3 ? 'dot pink' : 'dot'} onClick={() => check(3)}>
                 
             </div>
-            <div className={index === 4 ? 'dot pink' : 'dot'} onClick={() => setIndex(4)}>
+            <div className={index === 4 ? 'dot pink' : 'dot'} onClick={() => check(4)}>
                 
             </div>
-            <div className={index === 5 ? 'dot pink' : 'dot'} onClick={() => setIndex(5)}>
+            <div className={index === 5 ? 'dot pink' : 'dot'} onClick={() => check(5)}>
                 
             </div>
-            <div className={index === 6 ? 'dot pink' : 'dot'} onClick={() => setIndex(6)}>
+            <div className={index === 6 ? 'dot pink' : 'dot'} onClick={() => check(6)}>
                 
             </div>
         </div>
