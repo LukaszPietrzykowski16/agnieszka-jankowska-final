@@ -646,12 +646,13 @@ button {
 
 .card {
   display: flex;
+  width: 80vw;
   justify-content: center;
   align-items: center;
 }
 
 .card-img{
-  width: 40vw;
+  width: 50%;
 
   img {
     width: 70%;
@@ -660,7 +661,7 @@ button {
 }
 
 .card-txt{
-  width: 40vw;
+  width: 50%;
 }
 
 .carousel {
