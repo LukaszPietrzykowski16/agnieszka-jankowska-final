@@ -6,7 +6,7 @@ function List() {
         <>
 
       <div id='about-info'>
-          <h2> Z czym możesz się do mnie zgłosić? </h2>
+          <h2 id="test"> Z czym możesz się do mnie zgłosić? </h2>
           <h3> Kiedy: </h3>
           <ul>
             <li> masz dolegliwości bólowe mięśni oraz stawów </li>

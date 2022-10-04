@@ -266,11 +266,10 @@ a:visited {
   }
 }
 
-.about-section {
+#about-section {
   @include threeMagicLines();
   width: 70vw;
   margin-top: 10vh;
-  margin-bottom: 10vh;
 }
 
 .about-photo {
@@ -939,6 +938,9 @@ footer {
   background-color: $pink;
 }
 
+#test {
+  padding-top: 15vh;
+}
 
 .panel-div {
   background-color: white;
@@ -1030,7 +1032,7 @@ footer {
   background-color: $pink;
 }
 
-.co {
+#co{
   text-align: center;
   font-size: 2em;
   margin-top: 40px;
@@ -1625,11 +1627,11 @@ footer {
     width: 100vw !important;
   }
 
-  .about-section {
+  #about-section {
     @include fourMagicLines();
     width: 90vw;
     margin-top: 10vh;
-    margin-bottom: 10vh;
+
     position: relative;
     
   }

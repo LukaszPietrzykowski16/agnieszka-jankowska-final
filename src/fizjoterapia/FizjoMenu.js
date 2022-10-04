@@ -30,8 +30,8 @@ function FizjoMenu() {
         <Link to="/"><img src={logo}/></Link>
         </div>
         <div className='navigation-desktop'>
-          <div className='sub-nav'> <a href='#about-info'>  OFERTA </a> </div>
-          <div className='sub-nav'> <a href='#about-info'>  KONTAKT  </a> </div>
+          <div className='sub-nav'> <a href='#test'>  OFERTA </a> </div>
+          <div className='sub-nav'> <a href='#co'>  KONTAKT  </a> </div>
           <div className='sub-nav'>  <a href="https://zarejestrowani.pl/w/B2JkdikyN6ovHOTYBVwB3A/?fbclid=IwAR2oDVzoMbVaYxWM5V4aO9DT8qs5hzcq6pChMytsYuYFhHsMBLV-n_z3VO0"> ZAREJSTRUJ SIĘ </a></div>
         </div>
 
@@ -44,8 +44,8 @@ function FizjoMenu() {
           <div className='box'>
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}>  <a href='#about-info'>  OFERTA </a> </div>
-              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> <a href='#about-info'>  KONTAKT  </a> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}>  <a href='#test'>  OFERTA </a> </div>
+              <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> <a href='#co'>  KONTAKT  </a> </div>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}> <a href="https://zarejestrowani.pl/w/B2JkdikyN6ovHOTYBVwB3A/?fbclid=IwAR2oDVzoMbVaYxWM5V4aO9DT8qs5hzcq6pChMytsYuYFhHsMBLV-n_z3VO0"> ZAREJSTRUJ SIĘ </a> </div>
             </div>
         </div>

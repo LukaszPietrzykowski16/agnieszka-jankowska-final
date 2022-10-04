@@ -5,7 +5,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ContactFizjo = () => {
     return <> 
-        <h4 className='co'> Kontakt: </h4>
+        <h4 id='co'> Kontakt: </h4>
         <div className="cont">      
            
             <div className='cont-sub'>
