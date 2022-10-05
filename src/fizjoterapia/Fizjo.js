@@ -5,7 +5,7 @@ import img1 from '../images/fizjo.jpg'
 function Fizjo() {
     return (
         <>
-        <div id='about-section'> 
+        <div id='about-section2'> 
       <div className='about-photo'>
           <img src={img1} alt="Zdjecię przedstawiające Agnieszkę Jankowską" />
       </div>

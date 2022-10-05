@@ -19,7 +19,6 @@ const Reportaz = () => {
     const [index, setIndex] = useState(0)
     const pathname = window.location.pathname
 
-    console.log(image)
     // fetching data from storage in firebase
     const imagesListRef = ref(projectStorage, `${pathname}`);
     useEffect(() => {
